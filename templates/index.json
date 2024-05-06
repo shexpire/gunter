@@ -168,6 +168,34 @@
         "padding_top": 36,
         "padding_bottom": 52
       }
+    },
+    "featured_collection_EUYnF8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Look & Curated",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ahora-en-gunter",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 56
+      }
     }
   },
   "order": [
@@ -175,6 +203,7 @@
     "featured_collection",
     "collection_list_b7mYry",
     "d68c5509-a5c0-42dd-b8be-5c413dcea123",
-    "image_with_text_bweyXY"
+    "image_with_text_bweyXY",
+    "featured_collection_EUYnF8"
   ]
 }
