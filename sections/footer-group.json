@@ -2,6 +2,40 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_tcUJa6": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_p6zF6X": {
+          "type": "heading",
+          "settings": {
+            "heading": "€10 discount on your first order",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_xTwPLT": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our newsletter<\/p>"
+          }
+        },
+        "email_form_9BFYbg": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_p6zF6X",
+        "paragraph_xTwPLT",
+        "email_form_9BFYbg"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 64
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -50,6 +84,7 @@
     }
   },
   "order": [
+    "newsletter_tcUJa6",
     "footer"
   ]
 }
