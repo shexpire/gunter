@@ -4,6 +4,35 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_JMQkAj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-gunter-white.png",
+            "image_width": 205,
+            "alignment": ""
+          }
+        },
+        "link_list_KzH4zk": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "main-menu"
+          }
+        },
+        "link_list_XAJqhf": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "image_JMQkAj",
+        "link_list_KzH4zk",
+        "link_list_XAJqhf"
+      ],
       "settings": {
         "color_scheme": "inverse",
         "newsletter_enable": true,
