@@ -3,7 +3,13 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "Artistas",
+        "excluded_collections": [
+          "ceramicas",
+          "catalogo",
+          "ahora-en-gunter",
+          "fine-art"
+        ],
         "sort": "alphabetical",
         "image_ratio": "square",
         "columns_desktop": 5,
