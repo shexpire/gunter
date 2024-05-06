@@ -46,6 +46,7 @@
       "settings": {
         "title": "Discover the new art work of Jeremy Yamamura",
         "heading_size": "h1",
+        "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -148,6 +149,7 @@
       "settings": {
         "title": "All the graphic work of Ricardo Cavolo",
         "heading_size": "h1",
+        "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -215,6 +217,7 @@
       "settings": {
         "title": "Look & Curated",
         "heading_size": "h1",
+        "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -229,7 +232,7 @@
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",

@@ -97,3 +97,15 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+.collection .card--card,
+.collection .card--standard .card__inner {
+  flex-grow: 1;
+}
+.collection .card__content {
+  flex-grow: 0;
+}
+
+.collection .card__media .media img {
+  object-fit: contain;
+}

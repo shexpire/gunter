@@ -415,6 +415,15 @@
           "label": "Extra large"
         }
       },
+      "header_alignment": {
+        "label": "Heading alignment",
+        "options__1": {
+          "label": "Left"
+        },
+        "options__2": {
+          "label": "Center"
+        }
+      },
       "image_shape": {
         "options__1": {
           "label": "Default"
