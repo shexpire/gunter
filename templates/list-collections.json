@@ -11,7 +11,7 @@
           "fine-art"
         ],
         "sort": "alphabetical",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "columns_desktop": 5,
         "columns_mobile": "2"
       }
