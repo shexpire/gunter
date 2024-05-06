@@ -101,7 +101,9 @@
 .collection .card--card,
 .collection .card--standard .card__inner {
   flex-grow: 1;
+  background: transparent;
 }
+
 .collection .card__content {
   flex-grow: 0;
 }
