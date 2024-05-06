@@ -1905,6 +1905,10 @@
           "options__2": {
             "label": "2 columns"
           }
+        },
+        "excluded_collections": {
+          "label": "Excluded collections",
+          "info": "Collections will not show on the list."
         }
       }
     },

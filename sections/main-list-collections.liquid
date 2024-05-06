@@ -18,17 +18,27 @@
     endif
 
     assign moduloResult = 28 | modulo: section.settings.columns_desktop
-    assign paginate_by = 30
+    assign paginate_by = 90
     if moduloResult == 0
-      assign paginate_by = 28
+      assign paginate_by = 84
     endif
+
+    assign excluded_collections = section.settings.excluded_collections | map: 'handle'
   -%}
+
   {%- paginate collections by paginate_by -%}
     <ul
       class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
       role="list"
     >
       {%- for collection in collections -%}
+        {% assign display_collection = true %}
+        {%- for excluded_collection in excluded_collections -%}
+          {%- if collection.handle == excluded_collection -%}
+            {% assign display_collection = false %}
+          {%- endif -%}
+        {%- endfor -%}
+        {% if display_collection %}
         <li
           class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
@@ -42,6 +52,7 @@
             columns: 3
           %}
         </li>
+        {% endif %}
       {%- endfor -%}
     </ul>
     {% render 'pagination', paginate: paginate %}
@@ -57,6 +68,12 @@
       "id": "title",
       "label": "t:sections.main-list-collections.settings.title.label",
       "default": "Collections"
+    },
+    {
+      "type": "collection_list",
+      "id": "excluded_collections",
+      "label": "t:sections.main-list-collections.settings.excluded_collections.label",
+      "info": "t:sections.main-list-collections.settings.excluded_collections.info"
     },
     {
       "type": "select",
