@@ -29,7 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-10-18_a_las_16.15.01.png",
         "image_2": "shopify:\/\/shop_images\/Sancho_4467911f-08a3-4ed2-9478-e60b83d7f22b.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
