@@ -1698,7 +1698,12 @@
           "name": "Disponibilidad de retiro"
         },
         "description": {
-          "name": "Descripción"
+          "name": "Descripción",
+          "settings": {
+            "enable_read_more": {
+              "label": "Habilitar \"Leer más\""
+            }
+          }
         },
         "share": {
           "name": "Compartir",
@@ -2013,6 +2018,17 @@
             },
             "show_inventory_quantity": {
               "label": "Mostrar recuento de inventario"
+            }
+          }
+        },
+        "size":{
+          "name": "Tamaño"
+        },
+        "metafield": {
+          "name": "Metafield",
+          "settings": {
+            "richtext": {
+              "label": "Contenido"
             }
           }
         }

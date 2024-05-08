@@ -68,7 +68,9 @@
     </span>
   {%- endcapture -%}
 
-  {%- if picker_type == 'swatch' -%}
+  {%- if picker_type == 'swatch' or option.name == 'Frame' -%}
+    {% assign handle = value | handleize %}
+    {% assign swatch_metaobject = shop.metaobjects.frame[handle] %}
     {% liquid
       assign checked = false
       if option.selected_value == value
@@ -89,7 +91,8 @@
       checked: checked,
       visually_disabled: option_disabled,
       shape: block.settings.swatch_shape,
-      help_text: help_text
+      help_text: help_text,
+      metaobject: swatch_metaobject
     %}
   {%- elsif picker_type == 'button' -%}
     <input

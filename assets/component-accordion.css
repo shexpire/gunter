@@ -56,3 +56,14 @@
 .accordion__content img {
   max-width: 100%;
 }
+
+.accordion__content iframe {
+  width: 100%;
+}
+.accordion .rte ul {
+  padding-left: 0;
+}
+
+.accordion .rte h3 {
+  font-size: 1.6rem;
+}

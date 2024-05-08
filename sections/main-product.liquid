@@ -91,6 +91,36 @@
                 >
                   {{- block.settings.text -}}
                 </p>
+              {%- when 'metafield_richtext' -%}
+              <div
+                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                {{- block.settings.metafield -}}
+              </div>
+              {%- when 'size' -%}
+              {% liquid
+                assign visible = false
+                assign height = product.metafields.custom.height.value | append: ""
+                assign width = product.metafields.custom.width.value | append: ""
+
+                if height != blank and width != blank
+                  assign visible = true
+                endif
+
+                if height contains '.0'
+                  assign height = height | remove: '.0'
+                endif
+                if width contains '.0'
+                  assign width = width | remove: '.0'
+                endif
+              %}
+                <p
+                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if visible == flase %} hidden{% endif %}"
+                {{ block.shopify_attributes }}
+                >
+                  <strong>{{ 'products.product.size.label' | t }} </strong>{{ height }} x {{ width }} {{ 'products.product.size.unit' | t }}
+                </p>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1>{{ product.title | escape }}</h1>
@@ -116,7 +146,7 @@
                 {%- endif -%}
                 <div class="product__tax caption rte">
                   {%- if cart.taxes_included -%}
-                    {{ 'products.product.include_taxes' | t }}
+                    <span>{{ 'products.product.include_taxes' | t }}</span>
                   {%- endif -%}
                   {%- if shop.shipping_policy.body != blank -%}
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
@@ -186,9 +216,25 @@
                 </p>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
-                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                    {{ product.description }}
-                  </div>
+                  {% if block.settings.enable_read_more %}
+                    <input class="show-more-toggle visually-hidden" type="checkbox" id="product-description-toggle">
+                    <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                      {%- if product.description.size > 220 -%}
+                        <div class="copy__truncated">{{ product.description | strip_html | truncate: 220 }}</div>
+                        <div class="copy__full">{{ product.description }}</div>
+                      {%- else -%}
+                        {{ product.description }}
+                      {%- endif -%}
+                      <label for="product-description-toggle" class="show-more-label">
+                        <span class="toggle__see-more">{{ 'products.product.read_more' | t }}</span>
+                        <span class="toggle__see-less">{{ 'products.product.read_less' | t }}</span>
+                      </label>
+                    </div>
+                  {% else %}
+                    <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                      {{ product.description }}
+                    </div>
+                  {%- endif -%}
                 {%- endif -%}
               {%- when 'sku' -%}
                 <p
@@ -939,7 +985,14 @@
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "enable_read_more",
+          "label": "t:sections.main-product.blocks.description.settings.enable_read_more.label"
+        }
+      ]
     },
     {
       "type": "share",
@@ -2093,6 +2146,64 @@
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        }
+      ]
+    },
+    {
+      "type": "size",
+      "name": "t:sections.main-product.blocks.size.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "uppercase",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.main-product.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "metafield_richtext",
+      "name": "t:sections.main-product.blocks.metafield.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "metafield",
+          "label": "t:sections.main-product.blocks.metafield.settings.richtext.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "uppercase",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.main-product.blocks.text.settings.text_style.label"
         }
       ]
     }

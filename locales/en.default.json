@@ -118,6 +118,8 @@
       "inventory_out_of_stock_continue_selling": "In stock",
       "sku": "SKU",
       "on_sale": "Sale",
+      "read_more": "Read more",
+      "read_less": "Read less",
       "product_variants": "Product variants",
       "media": {
         "gallery_viewer": "Gallery Viewer",
@@ -175,7 +177,11 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "size": {
+        "label": "Size: ",
+        "unit": "cm"
+      }
     },
     "modal": {
       "label": "Media gallery"

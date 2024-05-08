@@ -313,6 +313,9 @@ a.product__text {
 .product__tax {
   margin-top: -1.4rem;
 }
+.product__tax span {
+  display: none;
+}
 
 .product--no-media .share-button {
   max-width: 100%;
@@ -1471,4 +1474,23 @@ a.product__text {
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
   }
+}
+.collection-description .copy__truncated,
+.show-more-toggle:checked + .product__description .copy__full,
+.show-more-toggle:checked + .product__description .toggle__see-less {
+  display: inline;
+}
+
+.product__description .copy__full,
+.product__description .toggle__see-less,
+.show-more-toggle:checked + .product__description .copy__truncated,
+.show-more-toggle:checked + .product__description .toggle__see-more {
+  display: none;
+}
+
+.product__description .show-more-label {
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
 }

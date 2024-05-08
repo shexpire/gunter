@@ -110,6 +110,8 @@
       "add_to_cart": "Agregar al carrito",
       "description": "Descripción",
       "on_sale": "Oferta",
+      "read_more": "Leer más",
+      "read_less": "Leer menos",
       "quantity": {
         "label": "Cantidad",
         "input_label": "Cantidad para {{ product }}",
@@ -176,7 +178,11 @@
         "price_at_each": "a {{ price }} por unidad",
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
-      "product_variants": "Variantes de producto"
+      "product_variants": "Variantes de producto",
+      "size": {
+        "label": "Tamaño: ",
+        "unit": "cm"
+      }
     },
     "modal": {
       "label": "Galería multimedia"

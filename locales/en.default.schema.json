@@ -2047,7 +2047,12 @@
           "name": "Pickup availability"
         },
         "description": {
-          "name": "Description"
+          "name": "Description",
+          "settings": {
+            "enable_read_more": {
+              "label": "Enable read more"
+            }
+          }
         },
         "sku": {
           "name": "SKU",
@@ -2338,6 +2343,17 @@
             },
             "heading_3": {
               "label": "Third heading"
+            }
+          }
+        },
+        "size":{
+          "name": "Size"
+        },
+        "metafield": {
+          "name": "Metafield",
+          "settings": {
+            "richtext": {
+              "label": "Content"
             }
           }
         }
