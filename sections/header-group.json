@@ -28,6 +28,30 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "megamenu_item_Bx7fLK": {
+          "type": "megamenu-item",
+          "settings": {
+            "title": "Print Editions",
+            "parent_handle": "Works",
+            "link": "shopify:\/\/collections\/fine-art",
+            "image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp"
+          }
+        },
+        "megamenu_item_eexdDr": {
+          "type": "megamenu-item",
+          "settings": {
+            "title": "Graphic Art",
+            "parent_handle": "Works",
+            "link": "shopify:\/\/collections\/catalogo",
+            "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp"
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_item_Bx7fLK",
+        "megamenu_item_eexdDr"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "new-menu",

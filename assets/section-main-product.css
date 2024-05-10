@@ -1475,7 +1475,7 @@ a.product__text {
     border: none;
   }
 }
-.collection-description .copy__truncated,
+.product__description .copy__truncated,
 .show-more-toggle:checked + .product__description .copy__full,
 .show-more-toggle:checked + .product__description .toggle__see-less {
   display: inline;

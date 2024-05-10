@@ -28,7 +28,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-10-18_a_las_16.15.01.png",
-        "image_2": "shopify:\/\/shop_images\/Sancho_4467911f-08a3-4ed2-9478-e60b83d7f22b.jpg",
+        "image_2": "shopify:\/\/shop_images\/jean-jullien-le-jardin-des-plantes-design_dezeen_2364_col_6-2048x1365.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -111,36 +111,65 @@
         "show_text_below": true
       }
     },
-    "collection_list_b7mYry": {
-      "type": "collection-list",
+    "multicolumn_GabapB": {
+      "type": "multicolumn",
       "blocks": {
-        "featured_collection_hbqGhx": {
-          "type": "featured_collection",
+        "column_jydhAd": {
+          "type": "column",
           "settings": {
-            "collection": "fine-art"
+            "image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp",
+            "eager_loading": false,
+            "title": "Original Artwork",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/fine-art",
+            "internal": true,
+            "image_overlay_opacity": 10,
+            "color_scheme": "inverse",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
           }
         },
-        "featured_collection_Q6RTph": {
-          "type": "featured_collection",
+        "column_HQkYHU": {
+          "type": "column",
           "settings": {
-            "collection": "catalogo"
+            "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp",
+            "eager_loading": false,
+            "title": "Graphic Art",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/catalogo",
+            "internal": true,
+            "image_overlay_opacity": 10,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
           }
         }
       },
       "block_order": [
-        "featured_collection_hbqGhx",
-        "featured_collection_Q6RTph"
+        "column_jydhAd",
+        "column_HQkYHU"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "header_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
-        "color_scheme": "background-2",
-        "show_view_all": false,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 68,
+        "padding_top": 52,
         "padding_bottom": 36
       }
     },
@@ -246,7 +275,7 @@
     "image_banner",
     "featured_collection",
     "image_banner_RQfaej",
-    "collection_list_b7mYry",
+    "multicolumn_GabapB",
     "d68c5509-a5c0-42dd-b8be-5c413dcea123",
     "image_with_text_bweyXY",
     "featured_collection_EUYnF8"
