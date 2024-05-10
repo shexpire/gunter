@@ -1164,6 +1164,25 @@
             "label": "Left"
           }
         }
+      },
+      "blocks": {
+        "megamenu-item": {
+          "name": "Mega menu item",
+          "settings": {
+            "title": {
+              "label": "Heading"
+            },
+            "parent_handle": {
+              "label": "Parent menu item name"
+            },
+            "link": {
+              "label": "Link"
+            },
+            "image": {
+              "label": "Image"
+            }
+          }
+        }
       }
     },
     "image-banner": {
@@ -2516,6 +2535,18 @@
         "title": {
           "label": "Heading"
         },
+        "header_alignment": {
+          "label": "Header alignment",
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          }
+        },
+        "title_intro": {
+          "label": "Heading intro"
+        },
         "image_width": {
           "label": "Image width",
           "options__1": {
@@ -2562,6 +2593,9 @@
           },
           "options__2": {
             "label": "Show as column background"
+          },
+          "options__3": {
+            "label": "Full background"
           }
         },
         "button_label": {
@@ -2593,6 +2627,10 @@
             "image": {
               "label": "Image"
             },
+            "video": {
+              "label": "Video",
+              "info": "the video will play automatically with no audio"
+            },
             "title": {
               "label": "Heading"
             },
@@ -2604,6 +2642,15 @@
             },
             "link": {
               "label": "Link"
+            },
+            "internal_content": {
+              "label": "Show content inside the image"
+            },
+            "content_position": {
+              "label": "Content Position"
+            },
+            "content_alignment": {
+              "label": "Content Alignment"
             }
           }
         }

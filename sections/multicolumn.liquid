@@ -31,7 +31,7 @@
     {% endif %}
   >
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title title-alignment--{{ section.settings.header_alignment }}">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
@@ -75,18 +75,35 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container
+              {% if block.settings.image != blank %} multicolumn-card--with-image{% else %} multicolumn-card--without-image{% endif %}
+              {% if block.settings.internal %} multicolumn-card--internal-content
+              color-{{ block.settings.color_scheme }}
+              multicolumn-card--{{ block.settings.desktop_content_position }}
+              multicolumn-card--mobile-{{ block.settings.mobile_content_position }}{% endif %}
+              ">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
                 {% endif %}
-                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
+                {% unless block.settings.internal %}
+                  <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
+                {% endunless %}
                   <div
-                    class="media media--transparent media--{{ section.settings.image_ratio }}"
+                    class="media {% if block.settings.video %}media--video{% endif %} media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}
                   >
+                    {% if block.settings.video %}
+                      {{
+                        block.settings.video
+                        | video_tag:
+                        image_size: '800x',
+                        autoplay: true,
+                        muted: true
+                      }}
+                    {% else %}
                     {%- liquid
                       assign number_of_columns = section.settings.columns_desktop
                       assign number_of_columns_mobile = section.settings.columns_mobile
@@ -108,36 +125,60 @@
                       calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
                     {% endcapture %}
                     {{
-                      block.settings.image
-                      | image_url: width: 3200
-                      | image_tag:
-                        widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
-                        sizes: sizes,
-                        class: 'multicolumn-card__image'
-                    }}
+                          block.settings.image
+                          | image_url: width: 1420
+                          | image_tag:
+                            loading: 'lazy',
+                            sizes: sizes,
+                            widths: '275, 550, 710, 1420',
+                            class: 'multicolumn-card__image'
+                        }}
+                    {% endif %}
                   </div>
-                </div>
+                {% unless block.settings.internal %}
+                  </div>
+                {% endunless %}
               {%- endif -%}
+              {%- style -%}
+
+                #Slide-{{ section.id }}-{{ forloop.index }} .multicolumn-card__info>a:before {
+                background-color: rgb(var(--color-background));
+                opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+                bottom: 0;
+                content: "";
+                height: 100%;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+                z-index: 1;
+                }
+              {%- endstyle -%}
               <div class="multicolumn-card__info">
+                {% if block.settings.internal %}
+                    <{% if block.settings.link %}a href="{{ block.settings.link }}"{% else %}div{% endif %} class="multicolumn-card--content-align-{{ block.settings.desktop_content_alignment }}
+                    multicolumn-card--content-align-mobile-{{ block.settings.mobile_content_alignment }}"
+                    >
+                    {% endif %}
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext{% unless block.settings.internal %} body-font{% else %} h2{% endunless %}">
+                    {{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a
-                    class="link animate-arrow"
-                    {% if block.settings.link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.link }}"
-                    {% endif %}
+                  <span
+                    class="button button--primary"
                   >
                     {{- block.settings.link_label | escape -}}
                     <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
                   >
                 {%- endif -%}
+                 {% if block.settings.internal %}
+                      </{% if block.settings.link == false %}div{% else %}a{% endif %}>
+                 {%- endif -%}
               </div>
             </div>
           </li>
@@ -191,7 +232,7 @@
 {% schema %}
 {
   "name": "t:sections.multicolumn.name",
-  "class": "section",
+  "class": "section multicolumn-section",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -222,6 +263,22 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "header_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.multicolumn.settings.header_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.multicolumn.settings.header_alignment.options__2.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.multicolumn.settings.header_alignment.label"
     },
     {
       "type": "select",
@@ -387,6 +444,19 @@
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
         },
         {
+          "type": "video",
+          "id": "video",
+          "label": "t:sections.multicolumn.blocks.column.settings.video.label",
+          "info": "t:sections.multicolumn.blocks.column.settings.video.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "eager_loading",
+          "default": false,
+          "label": "Disable lazy loading",
+          "info": "Check if this is the first image on the site (above the fold) to avoid lazy loading."
+        },
+        {
           "type": "inline_richtext",
           "id": "title",
           "default": "Column",
@@ -407,6 +477,167 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "internal",
+          "default": false,
+          "label": "t:sections.multicolumn.blocks.column.settings.internal_content.label"
+        },
+        {
+          "type": "range",
+          "id": "image_overlay_opacity",
+          "min": 0,
+          "max": 100,
+          "step": 10,
+          "unit": "%",
+          "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+          "default": 0
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "scheme-1"
+        },
+        {
+          "type": "header",
+          "content": "Desktop",
+          "info": "Only if content is internal"
+        },
+        {
+          "type": "select",
+          "id": "desktop_content_position",
+          "options": [
+            {
+              "value": "top-left",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__1.label"
+            },
+            {
+              "value": "top-center",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__2.label"
+            },
+            {
+              "value": "top-right",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__3.label"
+            },
+            {
+              "value": "middle-left",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__4.label"
+            },
+            {
+              "value": "middle-center",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__5.label"
+            },
+            {
+              "value": "middle-right",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__6.label"
+            },
+            {
+              "value": "bottom-left",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__7.label"
+            },
+            {
+              "value": "bottom-center",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__8.label"
+            },
+            {
+              "value": "bottom-right",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__9.label"
+            }
+          ],
+          "default": "bottom-left",
+          "label": "t:sections.multicolumn.blocks.column.settings.content_position.label"
+        },
+        {
+          "type": "select",
+          "id": "desktop_content_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.image-banner.settings.desktop_content_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.image-banner.settings.desktop_content_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.image-banner.settings.desktop_content_alignment.options__3.label"
+            }
+          ],
+          "default": "left",
+          "label": "t:sections.multicolumn.blocks.column.settings.content_alignment.label"
+        },
+        {
+          "type": "header",
+          "content": "Mobile",
+          "info": "Only if content is internal"
+        },
+        {
+          "type": "select",
+          "id": "mobile_content_position",
+          "options": [
+            {
+              "value": "top-left",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__1.label"
+            },
+            {
+              "value": "top-center",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__2.label"
+            },
+            {
+              "value": "top-right",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__3.label"
+            },
+            {
+              "value": "middle-left",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__4.label"
+            },
+            {
+              "value": "middle-center",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__5.label"
+            },
+            {
+              "value": "middle-right",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__6.label"
+            },
+            {
+              "value": "bottom-left",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__7.label"
+            },
+            {
+              "value": "bottom-center",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__8.label"
+            },
+            {
+              "value": "bottom-right",
+              "label": "t:sections.image-banner.settings.desktop_content_position.options__9.label"
+            }
+          ],
+          "default": "middle-center",
+          "info": "Only if content is internal",
+          "label": "t:sections.multicolumn.blocks.column.settings.content_position.label"
+        },
+        {
+          "type": "select",
+          "id": "mobile_content_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.image-banner.settings.desktop_content_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.image-banner.settings.desktop_content_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.image-banner.settings.desktop_content_alignment.options__3.label"
+            }
+          ],
+          "default": "center",
+          "label": "t:sections.multicolumn.blocks.column.settings.content_alignment.label"
         }
       ]
     }

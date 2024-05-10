@@ -104,6 +104,27 @@
                               </li>
                             {%- endfor -%}
                           </ul>
+                          <div class="grid grid--1-col flex-mobile">
+                            {% assign ratio = 100 %}
+                            {% for block in section.blocks %}
+                              {% if forloop.index == 1 %}
+                                {% assign ratio = 1 | divided_by: block.settings.image.aspect_ratio | times: 100 %}
+                              {% endif %}
+                              {% assign parent_handle = block.settings.parent_handle | handleize  %}
+                              {% assign parent_name = link.title | handleize %}
+                              {% if parent_handle == parent_name %}
+                                <div class="mega-menu__image grid__item">
+                                  <a href="{{ block.settings.link }}">
+                                    <div class="media media--transparent ratio"
+                                         style="--ratio-percent: {{ ratio }}%">
+                                      <img src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.title }}">
+                                    </div>
+                                    <span class="link">{{ block.settings.title }}</span>
+                                  </a>
+                                </div>
+                              {% endif %}
+                            {% endfor %}
+                          </div>
                         </div>
                       </div>
                     </details>

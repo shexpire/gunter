@@ -2185,6 +2185,18 @@
         "title": {
           "label": "Título"
         },
+        "header_alignment": {
+          "label": "Alineado de titulo",
+          "options__1": {
+            "label": "Izquierda"
+          },
+          "options__2": {
+            "label": "Centro"
+          }
+        },
+        "title_intro": {
+          "label": "Heading intro"
+        },
         "image_width": {
           "label": "Ancho de imagen",
           "options__1": {
@@ -2228,6 +2240,9 @@
           },
           "options__2": {
             "label": "Mostrar como fondo de columna"
+          },
+          "options__3": {
+            "label": "Fondo Completo"
           }
         },
         "button_label": {
@@ -2262,6 +2277,10 @@
             "image": {
               "label": "Imagen"
             },
+            "video": {
+              "label": "Video",
+              "info": "el video se reproducirá automáticamente sin audio"
+            },
             "title": {
               "label": "Título"
             },
@@ -2273,6 +2292,15 @@
             },
             "link": {
               "label": "Enlace"
+            },
+            "internal_content": {
+              "label": "Mostrar contenido dentro de la imagen."
+            },
+            "content_position": {
+              "label": "Posición del contenido"
+            },
+            "content_alignment": {
+              "label": "Alineación de contenido"
             }
           }
         }

@@ -116,7 +116,7 @@
                 endif
               %}
                 <p
-                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if visible == flase %} hidden{% endif %}"
+                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if visible == false %} hidden{% endif %}"
                 {{ block.shopify_attributes }}
                 >
                   <strong>{{ 'products.product.size.label' | t }} </strong>{{ height }} x {{ width }} {{ 'products.product.size.unit' | t }}
