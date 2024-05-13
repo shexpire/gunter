@@ -71,6 +71,21 @@
         "padding_bottom": 36
       }
     },
+    "video_YMrwLe": {
+      "type": "video",
+      "settings": {
+        "heading": "WATCH GUNTER'S VIDEO",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=ozS0EknYpR0",
+        "cover_image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp",
+        "description": "ART HAS NEVER BEEN SO CLOSE TO YOU",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -88,28 +103,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "video_YMrwLe": {
-      "type": "video",
-      "settings": {
-        "heading": "WATCH GUNTER'S VIDEO",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=ozS0EknYpR0",
-        "cover_image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp",
-        "description": "ART HAS NEVER BEEN SO CLOSE TO YOU",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "rich_text_dM7iXA",
     "image_with_text_idfnV4",
+    "video_YMrwLe",
     "form",
-    "main",
-    "video_YMrwLe"
+    "main"
   ]
 }
