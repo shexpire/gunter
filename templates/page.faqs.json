@@ -1,0 +1,117 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_YJ3QdT": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_YgpK3t": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the dimensions of the artworks?",
+            "icon": "none",
+            "row_content": "<p>In all cases they will be specified alongside the image of the work. The same artwork is not available in other sizes.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XdBddT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the price of the artwork?",
+            "icon": "none",
+            "row_content": "<p>In all cases they will be specified alongside the image of the work. Prices may vary with time depending on how long the artwork stays on the site. GunterGallery reserves the right to modify the prices of the works which it displays.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ARHbaM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will the artwork that I receive at home come signed by the artist?",
+            "icon": "none",
+            "row_content": "<p>All artworks that are delivered come with the artists signature and the GunterGallery stamp.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_B3KJLx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will I receive my order?",
+            "icon": "none",
+            "row_content": "<p>You will receive your order within a maximum period of 28 days, although normally it takes place within the first 7 working days after your purchase.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_K4tTFE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I’ve received a damaged work, what can I do?",
+            "icon": "none",
+            "row_content": "<p>If you have received an artwork with any type of flaw please get in contact with us within the first 24 hours after the receipt of the order. After these 24 hours have passed no claims will be accepted.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WXDUaE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I don’t like the artwork I’ve received, can I return it?",
+            "icon": "none",
+            "row_content": "<p>We’re sorry but GunterGallery does not accept returns once the work has been delivered. In any case, whatever the case may be, please get in contact with us.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aUUkiC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I regret the purchase having set the process in motion but without having yet received the order, am I entitled to a refund?",
+            "icon": "none",
+            "row_content": "<p>In cases such as this please get in contact with us as quickly as possible in order to try to come to an agreement. If the order has already been dispatched there are no refunds under any circumstances.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_M4Umiq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you deliver internationally?",
+            "icon": "none",
+            "row_content": "<p>Yes, we do. In these cases the transport fees on the order will be paid by the person who purchases the item.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_YgpK3t",
+        "collapsible_row_XdBddT",
+        "collapsible_row_ARHbaM",
+        "collapsible_row_B3KJLx",
+        "collapsible_row_K4tTFE",
+        "collapsible_row_WXDUaE",
+        "collapsible_row_aUUkiC",
+        "collapsible_row_M4Umiq"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ's",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_YJ3QdT"
+  ]
+}
