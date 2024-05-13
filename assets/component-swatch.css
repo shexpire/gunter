@@ -33,3 +33,6 @@
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+.facets-layout .swatch-input__label {
+  margin-right: 1rem;
+}

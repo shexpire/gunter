@@ -119,6 +119,13 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-2.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_heading_font": "Lora",
+    "checkout_body_font": "Lato",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -141,6 +148,16 @@
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
+        }
+      },
+      "14818028230436078177": {
+        "type": "shopify:\/\/apps\/langify\/blocks\/langify\/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
+        "disabled": true,
+        "settings": {
+          "theme_id": "167072923973",
+          "block_flags_css": false,
+          "block_lib_css": true,
+          "rtl_css": "body {\n  direction: rtl;\n}"
         }
       }
     },

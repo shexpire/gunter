@@ -123,7 +123,7 @@
                 {% when 'boolean', 'list' %}
                   <details
                     id="Details-{{ filter.param_name | escape }}-{{ section.id }}"
-                    class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter"
+                    class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter {% unless filter.values.size > 1 %} hidden{% endunless %}"
                     data-index="{{ forloop.index }}"
                     {% if filter_type == 'vertical' and forloop.index == 1 %}
                       open
@@ -150,6 +150,7 @@
                         {% render 'icon-caret' %}
                       </div>
                     </summary>
+
                     <div
                       id="Facet-{{ forloop.index }}-{{ section.id }}"
                       class="parent-display {% if filter_type == 'horizontal' %}facets__display{% else %}facets__display-vertical{% endif %}"
@@ -216,9 +217,10 @@
                             {%- endcapture -%}
 
                             <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
-                              {%- if presentation == 'swatch' -%}
+                              {%- if presentation == 'swatch' or filter.label  == 'Frame' -%}
                                 <div class="{{ label_class }}">
                                   <div class="swatch-input-wrapper">
+                                    {% assign val_handle = value.value | handleize %}
                                     {% render 'swatch-input',
                                       id: input_id,
                                       type: 'checkbox',
@@ -227,7 +229,8 @@
                                       product_form_id: 'FacetFiltersForm',
                                       swatch: value.swatch,
                                       checked: value.active,
-                                      disabled: is_disabled
+                                      disabled: is_disabled,
+                                      metaobject: shop.metaobjects.frame[val_handle]
                                     %}
                                   </div>
 
@@ -591,18 +594,20 @@
                               {%- endcapture -%}
 
                               <li class="mobile-facets__item list-menu__item">
-                                {% if presentation == 'swatch' %}
+                                {% if presentation == 'swatch' or filter.label  == 'Frame' %}
                                   <div class="{{ label_class }}">
                                     <div class="swatch-input-wrapper">
+                                      {% assign val_handle = value.value | handleize %}
                                       {% render 'swatch-input',
                                         id: input_id,
                                         type: 'checkbox',
                                         name: value.param_name,
                                         value: value.value,
-                                        product_form_id: 'FacetFiltersFormMobile',
+                                        product_form_id: 'FacetFiltersForm',
                                         swatch: value.swatch,
                                         checked: value.active,
-                                        disabled: is_disabled
+                                        disabled: is_disabled,
+                                        metaobject: shop.metaobjects.frame[val_handle]
                                       %}
                                     </div>
 
