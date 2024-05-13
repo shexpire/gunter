@@ -20,6 +20,7 @@
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">
           <input class="show-more-toggle visually-hidden" type="checkbox" id="collection__description-toggle">
+          {% if collection.description.size > 0 %}
           <div class="collection__description rte quick-add-hidden">
             {%- if collection.description.size > 220 -%}
               <div class="copy__truncated">{{ collection.description | strip_html | truncate: 220 }}</div>
@@ -32,6 +33,7 @@
               <span class="toggle__see-less">{{ 'products.product.read_less' | t }}</span>
             </label>
           </div>
+          {% endif %}
         </div>
         <ul class="collection-hero__links list-unstyled">
           {% for link in collection.metafields.custom.links.value %}
