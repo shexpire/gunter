@@ -1,1 +1,88 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"","heading_size":"h1","color_scheme":"background-1","padding_top":36,"padding_bottom":36}}},"order":["main","form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dM7iXA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J4YKHG": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE ARE HUNTERS + WE ARE ART HUNTERS",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_J4YKHG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_idfnV4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ATeCgQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "GUN + HUNTER",
+            "heading_size": "h2"
+          }
+        },
+        "text_Ca7yPV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Do you have any questions or want to have further information about our products?<\/strong><\/p><p><a href=\"mailto:info@guntergallery.com\" target=\"_blank\" title=\"info@guntergallery.com\">info@guntergallery.com<br\/><\/a><a href=\"mailto:press@guntergallery.com\" target=\"_blank\" title=\"press@guntergallery.com\">press@guntergallery.com<\/a><\/p><p>Or you can call us from Monday to Friday between 10am - 18pm.<\/p><p>+34 696 41 43 69<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ATeCgQ",
+        "text_Ca7yPV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "rich_text_dM7iXA",
+    "image_with_text_idfnV4"
+  ]
+}
