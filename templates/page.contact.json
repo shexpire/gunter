@@ -75,7 +75,7 @@
       "type": "video",
       "settings": {
         "heading": "WATCH GUNTER'S VIDEO",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=ozS0EknYpR0",
         "cover_image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp",
