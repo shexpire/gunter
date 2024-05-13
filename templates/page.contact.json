@@ -1,35 +1,36 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_dM7iXA": {
       "type": "rich-text",
       "blocks": {
         "heading_J4YKHG": {
           "type": "heading",
           "settings": {
-            "heading": "WE ARE HUNTERS + WE ARE ART HUNTERS",
-            "heading_size": "h2"
+            "heading": "Contact",
+            "heading_size": "h1"
+          }
+        },
+        "caption_t8BtJx": {
+          "type": "caption",
+          "settings": {
+            "caption": "WE ARE HUNTERS + WE ARE ART HUNTERS",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "caption_NqYmp8": {
+          "type": "caption",
+          "settings": {
+            "caption": "GUN + HUNTER",
+            "text_style": "subtitle",
+            "text_size": "small"
           }
         }
       },
       "block_order": [
-        "heading_J4YKHG"
+        "heading_J4YKHG",
+        "caption_t8BtJx",
+        "caption_NqYmp8"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -43,13 +44,6 @@
     "image_with_text_idfnV4": {
       "type": "image-with-text",
       "blocks": {
-        "heading_ATeCgQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "GUN + HUNTER",
-            "heading_size": "h2"
-          }
-        },
         "text_Ca7yPV": {
           "type": "text",
           "settings": {
@@ -59,7 +53,6 @@
         }
       },
       "block_order": [
-        "heading_ATeCgQ",
         "text_Ca7yPV"
       ],
       "settings": {
@@ -74,15 +67,48 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_YMrwLe": {
+      "type": "video",
+      "settings": {
+        "heading": "WATCH GUNTER'S VIDEO",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=ozS0EknYpR0",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main",
-    "form",
     "rich_text_dM7iXA",
-    "image_with_text_idfnV4"
+    "image_with_text_idfnV4",
+    "form",
+    "main",
+    "video_YMrwLe"
   ]
 }
