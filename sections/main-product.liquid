@@ -85,12 +85,27 @@
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'text' -%}
-                <p
-                  class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
+              <p
+                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+
+                {% if block.settings.search_collection %}
+                  {% liquid
+                    assign vendor = product.vendor | handleize | rstrip | lstrip
+                    for collection in product.collections
+                      assign artist =  collection.title | handleize
+                      if vendor == artist
+                        assign vendor_collection = collection
+                      endif
+                    endfor
+                  %}
+
+                  <a href="{{ vendor_collection.url }}" class="author_link" >{{- vendor_collection.title -}}</a>
+                {% else %}
                   {{- block.settings.text -}}
-                </p>
+                {% endif %}
+              </p>
               {%- when 'metafield_richtext' -%}
               <div
                 class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -809,6 +824,13 @@
           "id": "text",
           "default": "Text block",
           "label": "t:sections.main-product.blocks.text.settings.text.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "search_collection",
+          "label": "t:sections.main-product.blocks.text.settings.search_collection.label",
+          "info": "t:sections.main-product.blocks.text.settings.search_collection.info",
+          "default": true
         },
         {
           "type": "select",

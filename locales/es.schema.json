@@ -1631,6 +1631,13 @@
             "text": {
               "label": "Texto"
             },
+            "link": {
+              "label": "Enlace"
+            },
+            "search_collection": {
+              "label": "Buscar colección",
+              "info": "Busca una colleccion que coincida con el vendor"
+            },
             "text_style": {
               "label": "Text style",
               "options__1": {

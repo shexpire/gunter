@@ -346,6 +346,11 @@ h6,
   margin-block-end: 1.67em;
 }
 
+.body-font {
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+}
+
 blockquote {
   font-style: italic;
   color: rgba(var(--color-foreground), 0.75);
@@ -485,6 +490,13 @@ h6:empty {
   background-color: transparent;
   font-size: 1.4rem;
   font-family: inherit;
+}
+
+.author_link {
+  text-decoration: none;
+}
+.author_link:hover {
+  text-decoration: underline;
 }
 
 .link--text {
@@ -1180,6 +1192,7 @@ button.shopify-payment-button__button--unbranded,
   --border-opacity: calc(1 - var(--buttons-border-opacity));
   border-radius: var(--buttons-radius-outset);
   position: relative;
+  text-transform: uppercase;
 }
 
 .button,
