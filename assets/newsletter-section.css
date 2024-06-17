@@ -48,3 +48,20 @@
     margin: 0 0 0 1rem;
   }
 }
+.newsletter-checkbox {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1.2rem;
+}
+.newsletter-checkbox p {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.newsletter-checkbox input {
+  margin-top: 0.4rem;
+  margin-right: .8rem;
+}
+.newsletter-checkbox a {
+  color: rgb(var(--color-foreground));
+}

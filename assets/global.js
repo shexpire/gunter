@@ -592,6 +592,37 @@ class ModalOpener extends HTMLElement {
       if (modal) modal.show(button);
     });
   }
+
+  connectedCallback() {
+    if (this.hasAttribute('data-timer')){
+      this.checkDays()
+    }
+  }
+
+  checkDays() {
+    let today = new Date();
+    let lastDayLS = localStorage.getItem('userArrivedDate');
+    if (lastDayLS) {
+      let lastDayEntered = new Date(lastDayLS);
+      let difference_in_time = lastDayEntered.getTime() - today.getTime();
+      let difference_in_days = difference_in_time / (1000 * 3600 * 24);
+      if (difference_in_days > this.getAttribute('data-open-again')) {
+        this.openThisModal()
+      }
+    } else {
+      this.openThisModal()
+    }
+  }
+
+  openThisModal() {
+    const time = this.dataset.timer * 1000
+    const modal = document.querySelector(this.getAttribute('data-modal'));
+
+    setTimeout(() => {
+      if (modal) modal.show();
+      //this.setLocalData()
+    }, time);
+  }
 }
 customElements.define('modal-opener', ModalOpener);
 

@@ -107,6 +107,12 @@
                   {{- 'newsletter.success' | t }}
                 </h3>
               {%- endif -%}
+              {% if block.settings.legal_checkbox != blank %}
+                <label class="newsletter-checkbox">
+                  <input type="checkbox" name="required_eu" required>
+                  {{ block.settings.legal_checkbox }}
+                </label>
+              {% endif %}
             {% endform %}
           </div>
       {%- endcase -%}
@@ -201,7 +207,7 @@
     {
       "type": "paragraph",
       "name": "t:sections.newsletter.blocks.paragraph.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "richtext",
@@ -214,7 +220,14 @@
     {
       "type": "email_form",
       "name": "t:sections.newsletter.blocks.email_form.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "legal_checkbox",
+          "label": "t:sections.newsletter.blocks.email_form.settings.legal_checkbox.label"
+        }
+      ]
     },
     {
       "type": "@app"

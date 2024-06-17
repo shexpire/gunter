@@ -371,6 +371,38 @@
     }
   },
   "sections": {
+    "newsletter-popup": {
+      "name": "Newsletter popup",
+      "settings": {
+        "timer": {
+          "label": "Seconds before popup appears"
+        },
+        "open_again": {
+          "label": "Days before popup appears again"
+        },
+        "legal_checkbox":{
+          "label": "Legal checkbox label"
+        },
+        "content": {
+          "header": "Content",
+          "image": {
+            "label": "Image"
+          },
+          "title": {
+            "label": "Title"
+          },
+          "description": {
+            "label": "Content Text"
+          },
+          "button_label": {
+            "label": "Button label"
+          }
+        }
+      },
+      "presets": {
+        "name": "Newsletter popup"
+      }
+    },
     "all": {
       "animation": {
         "content": "Animations",
@@ -2694,7 +2726,12 @@
           }
         },
         "email_form": {
-          "name": "Email form"
+          "name": "Email form",
+            "settings": {
+              "legal_checkbox": {
+                "label": "Legal checkbox content"
+              }
+            }
         }
       },
       "presets": {

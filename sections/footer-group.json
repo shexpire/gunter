@@ -2,6 +2,17 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "lq_popup_newsletter_YCgRrd": {
+      "type": "lq-popup-newsletter",
+      "settings": {
+        "color_scheme": "",
+        "newsletter_timer": 5,
+        "newsletter_open_again": 7,
+        "title": "€10 discount on your first order",
+        "description": "<p>Join Our Exclusive Newsletter to discover the latest hampers, Insider Updates, and Special Offers!<\/p>",
+        "legal_checkbox": "<p>By sharing your details you agree to our <a href=\"https:\/\/guntergallery.com\/pages\/condiciones-de-uso\" title=\"Terms of use\">Privacy Policy and Terms and Conditions<\/a>, and will receive gallery newsletters.<\/p>"
+      }
+    },
     "newsletter_tcUJa6": {
       "type": "newsletter",
       "blocks": {
@@ -21,6 +32,7 @@
         "email_form_9BFYbg": {
           "type": "email_form",
           "settings": {
+            "legal_checkbox": "<p>By sharing your details you agree to our <a href=\"https:\/\/guntergallery.com\/pages\/condiciones-de-uso\" title=\"Terms of use\">Privacy Policy and Terms and Conditions<\/a>, and will receive gallery newsletters.<\/p>"
           }
         }
       },
@@ -84,6 +96,7 @@
     }
   },
   "order": [
+    "lq_popup_newsletter_YCgRrd",
     "newsletter_tcUJa6",
     "footer"
   ]
