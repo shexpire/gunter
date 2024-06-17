@@ -380,7 +380,7 @@
         "open_again": {
           "label": "Days before popup appears again"
         },
-        "legal_checkbox":{
+        "legal_checkbox": {
           "label": "Legal checkbox label"
         },
         "content": {
@@ -2404,7 +2404,7 @@
             }
           }
         },
-        "size":{
+        "size": {
           "name": "Size"
         },
         "metafield": {
@@ -2727,11 +2727,11 @@
         },
         "email_form": {
           "name": "Email form",
-            "settings": {
-              "legal_checkbox": {
-                "label": "Legal checkbox content"
-              }
+          "settings": {
+            "legal_checkbox": {
+              "label": "Legal checkbox content"
             }
+          }
         }
       },
       "presets": {
