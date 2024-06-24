@@ -15,9 +15,9 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "<strong>{{ product.vendor }}<\/strong>",
             "search_collection": true,
-            "text_style": "uppercase"
+            "text_style": "subtitle"
           }
         },
         "title": {
@@ -52,7 +52,7 @@
         "metafield_richtext_9UkH4E": {
           "type": "metafield_richtext",
           "settings": {
-            "metafield": "<p>{{ product.metafields.custom.details | metafield_tag }}<\/p>",
+            "metafield": "{{ product.metafields.custom.details | metafield_tag }}",
             "text_style": "uppercase"
           }
         },
