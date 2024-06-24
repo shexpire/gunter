@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -7,18 +16,13 @@
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
+            "search_collection": true,
             "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
           "settings": {
-          }
-        },
-        "size_CEiMDX": {
-          "type": "size",
-          "settings": {
-            "text_style": "uppercase"
           }
         },
         "price": {
@@ -59,6 +63,12 @@
             "text_style": "uppercase"
           }
         },
+        "size_CEiMDX": {
+          "type": "size",
+          "settings": {
+            "text_style": "uppercase"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -93,13 +103,13 @@
       "block_order": [
         "vendor",
         "title",
-        "size_CEiMDX",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "metafield_richtext_9UkH4E",
         "metafield_richtext_gDfPFk",
+        "size_CEiMDX",
         "description",
         "collapsible_tab_JFcfq8",
         "collapsible_tab_yNQQKj",
