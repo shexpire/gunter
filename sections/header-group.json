@@ -65,7 +65,7 @@
         "logo_position": "middle-center",
         "menu": "new-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
         "color_scheme": "background-1",
         "menu_color_scheme": "background-1",
