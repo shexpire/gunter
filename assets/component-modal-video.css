@@ -65,6 +65,7 @@
   height: auto;
   margin: 0;
   width: 2.2rem;
+  color: rgba(var(--color-background), 1);
 }
 
 .modal-video__content-info {
