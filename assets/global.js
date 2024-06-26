@@ -614,13 +614,18 @@ class ModalOpener extends HTMLElement {
     }
   }
 
+  setLocalData() {
+    let today = new Date();
+    localStorage.setItem('userArrivedDate', today);
+  }
+
   openThisModal() {
     const time = this.dataset.timer * 1000
     const modal = document.querySelector(this.getAttribute('data-modal'));
 
     setTimeout(() => {
       if (modal) modal.show();
-      //this.setLocalData()
+      this.setLocalData()
     }, time);
   }
 }
