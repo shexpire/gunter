@@ -576,6 +576,10 @@ class ModalDialog extends HTMLElement {
     this.removeAttribute('open');
     removeTrapFocus(this.openedBy);
     window.pauseAllMedia();
+    if (this.getAttribute('id') === 'modalNewsletter') {
+      let nowDate = new Date();
+      localStorage.setItem('userArrivedDate', nowDate);
+    }
   }
 }
 customElements.define('modal-dialog', ModalDialog);
@@ -625,7 +629,7 @@ class ModalOpener extends HTMLElement {
 
     setTimeout(() => {
       if (modal) modal.show();
-      this.setLocalData()
+      //this.setLocalData()
     }, time);
   }
 }
