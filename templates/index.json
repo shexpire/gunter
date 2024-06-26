@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "Jean Jullien",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "button": {
@@ -54,7 +54,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Discover the new art work of Jeremy Yamamura",
-        "heading_size": "h0",
+        "heading_size": "h2",
         "header_alignment": "center",
         "description": "",
         "show_description": false,
