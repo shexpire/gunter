@@ -186,7 +186,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "All the graphic work of Ricardo Cavolo",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "header_alignment": "center",
         "description": "",
         "show_description": false,
