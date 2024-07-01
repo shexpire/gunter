@@ -128,13 +128,14 @@
 }
 @media screen and (min-width: 990px) {
   .collection-hero--with-image .collection-hero__text-wrapper {
-    padding: 2rem 0 2rem 2rem;
     flex-basis: 60%;
   }
+
   .collection-hero__image-container {
     flex: 1 0 33%;
     order: -1;
   }
+
   .collection-hero__image-container .media>img {
     object-position: top center;
   }
