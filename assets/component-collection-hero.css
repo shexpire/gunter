@@ -145,7 +145,10 @@
 .show-more-toggle:checked + .collection__description .toggle__see-less {
   display: inline;
 }
-
+.collection__description .copy__truncated {
+  max-width: 600px;
+  display: block;
+}
 .collection__description .copy__full,
 .collection__description .toggle__see-less,
 .show-more-toggle:checked + .collection__description .copy__truncated,
