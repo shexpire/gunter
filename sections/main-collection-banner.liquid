@@ -22,11 +22,11 @@
           <input class="show-more-toggle visually-hidden" type="checkbox" id="collection__description-toggle">
           {% if collection.description.size > 0 %}
           <div class="collection__description rte quick-add-hidden">
-            {%- if collection.description.size > 220 -%}
-              <div class="copy__truncated">{{ collection.description | strip_html | truncate: 220 }}</div>
-              <div class="copy__full">{{ collection.description | strip_html }}</div>
+            {%- if collection.description.size > 300 -%}
+              <div class="copy__truncated">{{ collection.description | truncate: 300 }}</div>
+              <div class="copy__full">{{ collection.description  }}</div>
             {%- else -%}
-              {{ collection.description | strip_html }}
+              {{ collection.description  }}
             {%- endif -%}
             <label for="collection__description-toggle" class="show-more-label">
               <span class="toggle__see-more">{{ 'products.product.read_more' | t }}</span>
