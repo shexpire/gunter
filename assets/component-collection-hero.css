@@ -102,6 +102,7 @@
 
 .collection-hero__image-container img {
   object-position: top center;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 749px) {
