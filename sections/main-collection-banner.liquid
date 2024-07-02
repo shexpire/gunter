@@ -23,7 +23,7 @@
           {% if collection.description.size > 0 %}
           <div class="collection__description rte quick-add-hidden">
             {%- if collection.description.size > 300 -%}
-              <div class="copy__truncated">{{ collection.description | strip_html | truncatewords: 60 }}</div>
+              <div class="copy__truncated">{{ collection.description | strip_html | truncatewords: 54 }}</div>
               <div class="copy__full">{{ collection.description | strip_html }}</div>
             {%- else -%}
               {{ collection.description | strip_html }}
