@@ -128,11 +128,11 @@
 }
 @media screen and (min-width: 990px) {
   .collection-hero--with-image .collection-hero__text-wrapper {
-    flex-basis: 75%;
+    flex-basis: 66%;
   }
 
   .collection-hero__image-container {
-    flex: 1 0 25%;
+    flex: 1 0 33%;
   }
 
   .collection-hero__image-container .media>img {
