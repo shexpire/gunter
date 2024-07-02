@@ -235,7 +235,7 @@
                     <input class="show-more-toggle visually-hidden" type="checkbox" id="product-description-toggle">
                     <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                       {%- if product.description.size > 220 -%}
-                        <div class="copy__truncated">{{ product.description | strip_html | truncate: 220 }}</div>
+                        <div class="copy__truncated">{{ product.description | strip_html | truncate: 30 }}</div>
                         <div class="copy__full">{{ product.description }}</div>
                       {%- else -%}
                         {{ product.description }}
