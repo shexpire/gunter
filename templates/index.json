@@ -106,15 +106,15 @@
         "buttons_9Qying"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_MG_0632_copia.jpg",
-        "image_2": "shopify:\/\/shop_images\/image0.jpg",
+        "image": "shopify:\/\/shop_images\/Ricardo_Cavolo.png",
+        "image_2": "shopify:\/\/shop_images\/guntergallery-juanmajmse-29_web.jpg",
         "image_overlay_opacity": 20,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
-        "image_behavior": "zoom-in",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
