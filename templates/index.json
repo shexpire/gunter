@@ -85,7 +85,7 @@
         "heading_UFeDRy": {
           "type": "heading",
           "settings": {
-            "heading": "Nothing can stop Ricardo Cavolo",
+            "heading": "Nothing and nobody can stop Ricardo Cavolo",
             "heading_size": "h2"
           }
         },
@@ -94,7 +94,7 @@
           "settings": {
             "button_label_1": "The artwork you need",
             "button_link_1": "shopify:\/\/collections\/ezra-brown",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -117,7 +117,7 @@
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "multicolumn_GabapB": {
