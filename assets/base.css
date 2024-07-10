@@ -1102,6 +1102,10 @@ summary::-webkit-details-marker {
   overflow: hidden;
 }
 
+.media--video {
+  object-fit: cover;
+}
+
 .media--transparent {
   background-color: transparent;
 }
