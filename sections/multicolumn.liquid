@@ -163,7 +163,7 @@
                     >
                     {% endif %}
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext{% unless block.settings.internal %} body-font{% else %} h2{% endunless %}">
+                  <h3 class="inline-richtext{% unless block.settings.internal %} body-font{% else %} {{ block.settings.font_size }}{% endunless %}">
                     {{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
@@ -462,6 +462,30 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "select",
+          "id": "font_size",
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label",
+          "options": [
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h3",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "h4",
+              "label": "t:sections.all.heading_size.options__4.label"
+            }
+          ]
         },
         {
           "type": "richtext",
