@@ -53,13 +53,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Discover the new art work of Jeremy Yamamura",
+        "title": "There are many reasons to love Yutanpo Shirane",
         "heading_size": "h2",
         "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "jeremy-yamamura",
+        "collection": "yutanpo-shirane",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
