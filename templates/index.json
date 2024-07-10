@@ -85,7 +85,7 @@
         "heading_UFeDRy": {
           "type": "heading",
           "settings": {
-            "heading": "Ezra Brown",
+            "heading": "Nothing can stop Ricardo Cavolo",
             "heading_size": "h2"
           }
         },
@@ -116,7 +116,7 @@
         "color_scheme": "accent-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
