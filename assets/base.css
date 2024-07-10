@@ -1102,7 +1102,7 @@ summary::-webkit-details-marker {
   overflow: hidden;
 }
 
-.media--video {
+.media--video video{
   object-fit: cover;
 }
 
