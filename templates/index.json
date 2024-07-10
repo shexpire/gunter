@@ -128,7 +128,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp",
             "eager_loading": false,
-            "title": "Original Artwork",
+            "title": "Original Artworks",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/fine-art",
@@ -146,7 +146,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp",
             "eager_loading": false,
-            "title": "Graphic Art",
+            "title": "Editions",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/catalogo",
