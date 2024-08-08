@@ -68,7 +68,7 @@
     </span>
   {%- endcapture -%}
 
-  {%- if picker_type == 'swatch' or option.name == 'Frame' -%}
+  {%- if picker_type == 'swatch' or option.name == 'Frame' or option.name == 'Marco' -%}
     {% assign handle = value | handleize %}
     {% assign swatch_metaobject = shop.metaobjects.frame[handle] %}
     {% liquid
