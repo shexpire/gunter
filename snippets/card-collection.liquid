@@ -115,7 +115,7 @@
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
       <div class="card__content">
         <div class="card__information">
-          <h3 class="card__heading">
+          <h4 class="card__heading">
             <a
               {% if card_collection == blank %}
                 role="link" aria-disabled="true"
@@ -133,7 +133,7 @@
                 {% comment %}<span class="icon-wrap">{% render 'icon-arrow' %}</span>{% endcomment %}
               {% comment %}{%- endif %}{% endcomment %}
             </a>
-          </h3>
+          </h4>
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
