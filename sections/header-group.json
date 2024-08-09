@@ -55,11 +55,21 @@
             "link": "shopify:\/\/collections\/catalogo",
             "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp"
           }
+        },
+        "megamenu_item_8HmLLj": {
+          "type": "megamenu-item",
+          "settings": {
+            "title": "Brand collaborations",
+            "parent_handle": "Insighs",
+            "link": "shopify:\/\/blogs\/eventos",
+            "image": "shopify:\/\/shop_images\/JiXuM-SY.jpg"
+          }
         }
       },
       "block_order": [
         "megamenu_item_Bx7fLK",
-        "megamenu_item_eexdDr"
+        "megamenu_item_eexdDr",
+        "megamenu_item_8HmLLj"
       ],
       "settings": {
         "logo_position": "middle-center",
