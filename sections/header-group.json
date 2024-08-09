@@ -56,6 +56,15 @@
             "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp"
           }
         },
+        "megamenu_item_KyHMV6": {
+          "type": "megamenu-item",
+          "settings": {
+            "title": "ViewRooms",
+            "parent_handle": "Insighs",
+            "link": "shopify:\/\/blogs\/viewrooms",
+            "image": "shopify:\/\/shop_images\/f4VMwYhw.jpg"
+          }
+        },
         "megamenu_item_8HmLLj": {
           "type": "megamenu-item",
           "settings": {
@@ -69,6 +78,7 @@
       "block_order": [
         "megamenu_item_Bx7fLK",
         "megamenu_item_eexdDr",
+        "megamenu_item_KyHMV6",
         "megamenu_item_8HmLLj"
       ],
       "settings": {
