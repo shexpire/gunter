@@ -50,7 +50,7 @@
         "megamenu_item_eexdDr": {
           "type": "megamenu-item",
           "settings": {
-            "title": "Graphic Art",
+            "title": "Prints & Editions",
             "parent_handle": "Works",
             "link": "shopify:\/\/collections\/catalogo",
             "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp"
