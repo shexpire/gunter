@@ -50,7 +50,7 @@
           "type": "megamenu-item",
           "settings": {
             "title": "Original Artworks",
-            "parent_handle": "Works",
+            "parent_item": 1,
             "link": "shopify:\/\/collections\/fine-art",
             "image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp"
           }
@@ -59,7 +59,7 @@
           "type": "megamenu-item",
           "settings": {
             "title": "Prints & Editions",
-            "parent_handle": "Works",
+            "parent_item": 1,
             "link": "shopify:\/\/collections\/catalogo",
             "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp"
           }
@@ -68,7 +68,7 @@
           "type": "megamenu-item",
           "settings": {
             "title": "ViewRooms",
-            "parent_handle": "Insighs",
+            "parent_item": 3,
             "link": "shopify:\/\/blogs\/viewrooms",
             "image": "shopify:\/\/shop_images\/f4VMwYhw.jpg"
           }
@@ -77,7 +77,7 @@
           "type": "megamenu-item",
           "settings": {
             "title": "Brand Collaborations",
-            "parent_handle": "Insighs",
+            "parent_item": 3,
             "link": "shopify:\/\/blogs\/eventos",
             "image": "shopify:\/\/shop_images\/JiXuM-SY.jpg"
           }
