@@ -659,9 +659,14 @@
           "label": "t:sections.header.blocks.megamenu-item.settings.title.label"
         },
         {
-          "type": "text",
-          "id": "parent_handle",
-          "label": "t:sections.header.blocks.megamenu-item.settings.parent_handle.label"
+          "type": "range",
+          "id": "parent_item",
+          "min": 1,
+          "max": 12,
+          "step": 1,
+          "unit": "it",
+          "label": "t:sections.header.blocks.megamenu-item.settings.parent_item.label",
+          "default": 1
         },
         {
           "type": "url",
