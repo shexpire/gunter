@@ -30,6 +30,7 @@
                 class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
                 tabindex="-1"
               >
+                {% assign menu_main_item = forloop.index %}
                 <div class="page-width">
                   <div class="grid grid--1-col grid--2-col-tablet grid--3-col-desktop">
                     <div class="grid__item">
@@ -77,9 +78,8 @@
                           {% if forloop.index == 1 %}
                             {% assign ratio = 1 | divided_by: block.settings.image.aspect_ratio | times: 100 %}
                           {% endif %}
-                          {% assign parent_handle = block.settings.parent_handle | handleize  %}
-                          {% assign parent_name = link.title | handleize %}
-                          {% if parent_handle == parent_name %}
+                          {% assign parent_item = block.settings.parent_item  %}
+                          {% if parent_item == menu_main_item %}
                             <div class="mega-menu__image">
                               <a href="{{ block.settings.link }}">
                                 <div class="media media--transparent ratio"
