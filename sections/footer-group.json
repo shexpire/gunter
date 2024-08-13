@@ -53,7 +53,7 @@
         "newsletter_timer": 15,
         "newsletter_open_again": 7,
         "title": "€10 discount on your first order",
-        "description": "<p>Join Our Exclusive Newsletter to discover the latest hampers, Insider Updates, and Special Offers!<\/p>",
+        "description": "<p>Join us for the latest news from our artists<\/p>",
         "legal_checkbox": "<p>By sharing your details you agree to our <a href=\"https:\/\/guntergallery.com\/pages\/condiciones-de-uso\" title=\"Terms of use\">Privacy Policy and Terms and Conditions<\/a>, and will receive gallery newsletters.<\/p>"
       }
     },
@@ -94,8 +94,8 @@
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,
