@@ -300,7 +300,7 @@
       "title": "Tu carrito",
       "caption": "Artículos en el carrito",
       "remove_title": "Eliminar {{ title }}",
-      "note": "¿Este pedido es un regalo? Escribe tu mensaje",
+      "note": "¿Es un regalo? Escribe tu mensaje",
       "checkout": "Pagar pedido",
       "empty": "Tu carrito esta vacío",
       "cart_error": "Hubo un error al actualizar tu carrito de compra. Inténtalo de nuevo.",
