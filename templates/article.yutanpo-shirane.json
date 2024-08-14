@@ -121,6 +121,22 @@
         "padding_bottom": 16
       }
     },
+    "image_banner_3EbpA3": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Guntergallery-JuanmaJmse-008.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "collage_Lymihp": {
       "type": "collage",
       "blocks": {
@@ -157,8 +173,8 @@
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 4
       }
     },
     "rich_text_CUW4P3": {
@@ -292,6 +308,7 @@
     "main",
     "collage_PGXGxE",
     "rich_text_WMTJqz",
+    "image_banner_3EbpA3",
     "collage_Lymihp",
     "rich_text_CUW4P3",
     "multicolumn_GcLpEt"
