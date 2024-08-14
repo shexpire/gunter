@@ -174,6 +174,47 @@
         "padding_bottom": 16
       }
     },
+    "collage_nNeUHg": {
+      "type": "collage",
+      "blocks": {
+        "product_VjRXFq": {
+          "type": "product",
+          "settings": {
+            "product": "naranjas",
+            "second_image": false
+          }
+        },
+        "product_izCRfc": {
+          "type": "product",
+          "settings": {
+            "product": "fresas",
+            "second_image": false
+          }
+        },
+        "product_p4UfL9": {
+          "type": "product",
+          "settings": {
+            "product": "cerezas",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "product_VjRXFq",
+        "product_izCRfc",
+        "product_p4UfL9"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_PT3yyf": {
       "type": "rich-text",
       "blocks": {
@@ -211,6 +252,7 @@
     "rich_text_fFgAPh",
     "collage_CLTpxe",
     "video_gYHdLc",
+    "collage_nNeUHg",
     "rich_text_PT3yyf"
   ]
 }
