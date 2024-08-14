@@ -279,11 +279,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/ANA_JAREN_WIP_FOTOS_13.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "ambient",
