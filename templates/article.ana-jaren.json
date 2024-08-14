@@ -87,10 +87,26 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "video_gYHdLc": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Ana Jarén - Made with Clipchamp.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 16
+      }
     }
   },
   "order": [
     "main",
-    "collage_jiidGD"
+    "collage_jiidGD",
+    "video_gYHdLc"
   ]
 }
