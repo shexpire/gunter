@@ -118,6 +118,36 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_PT3yyf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rx6t3P": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"In this work there is a play between the colors of the fruits, the clothes and the backgrounds, maximizing the contrast and creating a triangle based on tonalities\".",
+            "heading_size": "h1"
+          }
+        },
+        "text_tz3adL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ana Jarén, artist<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rx6t3P",
+        "text_tz3adL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "video_gYHdLc": {
       "type": "video",
       "settings": {
@@ -138,6 +168,7 @@
     "main",
     "collage_jiidGD",
     "rich_text_fFgAPh",
+    "rich_text_PT3yyf",
     "video_gYHdLc"
   ]
 }
