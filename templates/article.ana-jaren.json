@@ -88,6 +88,47 @@
         "padding_bottom": 0
       }
     },
+    "collage_CLTpxe": {
+      "type": "collage",
+      "blocks": {
+        "product_iEppFM": {
+          "type": "product",
+          "settings": {
+            "product": "higos",
+            "second_image": false
+          }
+        },
+        "product_qxPHN8": {
+          "type": "product",
+          "settings": {
+            "product": "paraguayos",
+            "second_image": false
+          }
+        },
+        "product_h7wGeH": {
+          "type": "product",
+          "settings": {
+            "product": "uvas",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "product_iEppFM",
+        "product_qxPHN8",
+        "product_h7wGeH"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_fFgAPh": {
       "type": "rich-text",
       "blocks": {
@@ -167,6 +208,7 @@
   "order": [
     "main",
     "collage_jiidGD",
+    "collage_CLTpxe",
     "rich_text_fFgAPh",
     "video_gYHdLc",
     "rich_text_PT3yyf"
