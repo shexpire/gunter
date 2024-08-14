@@ -42,11 +42,10 @@
     "collage_PGXGxE": {
       "type": "collage",
       "blocks": {
-        "product_C87MKN": {
-          "type": "product",
+        "image_rem3ch": {
+          "type": "image",
           "settings": {
-            "product": "mood-for-pink-purple-1",
-            "second_image": false
+            "image": "shopify:\/\/shop_images\/B_05.jpg"
           }
         },
         "product_WJjKiK": {
@@ -65,7 +64,7 @@
         }
       },
       "block_order": [
-        "product_C87MKN",
+        "image_rem3ch",
         "product_WJjKiK",
         "product_nHJded"
       ],
