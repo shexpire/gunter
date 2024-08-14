@@ -204,36 +204,6 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_bF3hdk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_J8M7nd": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"This series is a nod to the fashion editorials we find in magazines, featuring the styles alongside over-the-top fruits and vibrant colors\".",
-            "heading_size": "h2"
-          }
-        },
-        "text_6f3rUn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ana Jarén, artist<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_J8M7nd",
-        "text_6f3rUn"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collage_nNeUHg": {
       "type": "collage",
       "blocks": {
@@ -352,7 +322,7 @@
             "eager_loading": false,
             "title": "",
             "font_size": "h2",
-            "text": "<p>Ana Jarén, artist<\/p>",
+            "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/ana-jaren",
             "internal": false,
@@ -398,13 +368,43 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "More about her",
-        "button_link": "shopify:\/\/collections\/ana-jaren",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 20,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_bF3hdk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J8M7nd": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"This series is a nod to the fashion editorials we find in magazines, featuring the styles alongside over-the-top fruits and vibrant colors\".",
+            "heading_size": "h2"
+          }
+        },
+        "text_6f3rUn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ana Jarén, artist<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_J8M7nd",
+        "text_6f3rUn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -415,9 +415,9 @@
     "collage_CLTpxe",
     "video_gYHdLc",
     "rich_text_PT3yyf",
-    "rich_text_bF3hdk",
     "collage_nNeUHg",
     "image_with_text_M9X4Gt",
-    "multicolumn_y7h4QE"
+    "multicolumn_y7h4QE",
+    "rich_text_bF3hdk"
   ]
 }
