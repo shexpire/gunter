@@ -79,6 +79,48 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_WMTJqz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YQeCqQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"When there is love even smallpox scars are the same as dimples on the cheeks\"",
+            "heading_size": "h1"
+          }
+        },
+        "text_aqzxC6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Japanese proverb<\/p>"
+          }
+        },
+        "button_RL4UkH": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YQeCqQ",
+        "text_aqzxC6",
+        "button_RL4UkH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collage_Lymihp": {
       "type": "collage",
       "blocks": {
@@ -249,6 +291,7 @@
   "order": [
     "main",
     "collage_PGXGxE",
+    "rich_text_WMTJqz",
     "collage_Lymihp",
     "rich_text_CUW4P3",
     "multicolumn_GcLpEt"
