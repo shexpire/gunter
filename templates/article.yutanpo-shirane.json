@@ -118,11 +118,96 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "multicolumn_GcLpEt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BRqwtD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/YUTANPO_SHIRANE_Portrait.001.jpg",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_9Rieqf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/YUTANPO_SHIRANE_2.jpg",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_NkVVWg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/YUTANPO_SHIRANE_Portrait.001.jpg",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "column_BRqwtD",
+        "column_9Rieqf",
+        "column_NkVVWg"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "header_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "collage_PGXGxE",
-    "collage_Lymihp"
+    "collage_Lymihp",
+    "multicolumn_GcLpEt"
   ]
 }
