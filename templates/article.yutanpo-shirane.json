@@ -78,10 +78,51 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "collage_Lymihp": {
+      "type": "collage",
+      "blocks": {
+        "image_rxWx88": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_b.jpg"
+          }
+        },
+        "product_ezPAGc": {
+          "type": "product",
+          "settings": {
+            "product": "pink-purple-bust-1",
+            "second_image": false
+          }
+        },
+        "product_wF3REr": {
+          "type": "product",
+          "settings": {
+            "product": "mood-for-pink-purple-3",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_rxWx88",
+        "product_ezPAGc",
+        "product_wF3REr"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "collage_PGXGxE"
+    "collage_PGXGxE",
+    "collage_Lymihp"
   ]
 }
