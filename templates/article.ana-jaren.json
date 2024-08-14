@@ -259,7 +259,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Ana Jarén, artist<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button_czmkPH": {
