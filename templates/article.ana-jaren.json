@@ -262,11 +262,11 @@
             "text_style": "body"
           }
         },
-        "button_63XhHF": {
+        "button_czmkPH": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "More about her",
+            "button_link": "shopify:\/\/collections\/ana-jaren",
             "button_style_secondary": false
           }
         }
@@ -274,7 +274,7 @@
       "block_order": [
         "heading_dwNcmg",
         "text_CBf7nk",
-        "button_63XhHF"
+        "button_czmkPH"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ANA_JAREN_WIP_FOTOS_13.jpg",
