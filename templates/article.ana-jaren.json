@@ -366,7 +366,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "More about her",
         "button_link": "shopify:\/\/collections\/ana-jaren",
         "color_scheme": "",
