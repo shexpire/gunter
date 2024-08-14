@@ -202,12 +202,55 @@
         "padding_top": 36,
         "padding_bottom": 40
       }
+    },
+    "rich_text_CUW4P3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_F6xgTD": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"It was love at first sight, at last sight, at any sight...\"",
+            "heading_size": "h1"
+          }
+        },
+        "text_iEtE38": {
+          "type": "text",
+          "settings": {
+            "text": "<p>'Lolita', Vladimir Nabokov (1955)<\/p>"
+          }
+        },
+        "button_MhAyDa": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_F6xgTD",
+        "text_iEtE38",
+        "button_MhAyDa"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "collage_PGXGxE",
     "collage_Lymihp",
-    "multicolumn_GcLpEt"
+    "multicolumn_GcLpEt",
+    "rich_text_CUW4P3"
   ]
 }
