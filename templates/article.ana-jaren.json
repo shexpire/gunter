@@ -60,14 +60,14 @@
         "product_NGiaxD": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "platanos",
             "second_image": false
           }
         },
         "product_iGPTq4": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "cerezas",
             "second_image": false
           }
         }
