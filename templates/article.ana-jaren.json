@@ -318,6 +318,7 @@
         "column_w9yP8E": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ANA_JAREN_WIP_FOTOS_16.jpg",
             "eager_loading": false,
             "title": "\"This series is a nod to the fashion editorials we find in magazines, featuring the styles alongside over-the-top fruits and vibrant colors\".",
             "font_size": "h2",
