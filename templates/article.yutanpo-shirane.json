@@ -42,35 +42,38 @@
     "collage_PGXGxE": {
       "type": "collage",
       "blocks": {
-        "image_p6NnWc": {
-          "type": "image",
+        "product_C87MKN": {
+          "type": "product",
           "settings": {
+            "product": "mood-for-pink-purple-1",
+            "second_image": false
           }
         },
-        "product_C87MKN": {
+        "product_WJjKiK": {
           "type": "product",
           "settings": {
             "product": "",
             "second_image": false
           }
         },
-        "collection_Q3XJBV": {
-          "type": "collection",
+        "product_nHJded": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "",
+            "second_image": false
           }
         }
       },
       "block_order": [
-        "image_p6NnWc",
         "product_C87MKN",
-        "collection_Q3XJBV"
+        "product_WJjKiK",
+        "product_nHJded"
       ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 0,
