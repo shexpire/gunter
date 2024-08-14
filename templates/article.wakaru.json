@@ -88,17 +88,17 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_7FaHtr": {
+    "rich_text_8AannC": {
       "type": "rich-text",
       "blocks": {
-        "heading_T7kX7n": {
+        "heading_9BGFTm": {
           "type": "heading",
           "settings": {
             "heading": "\"No road is too long in the company of a friend\"",
             "heading_size": "h1"
           }
         },
-        "text_Nqe7Pk": {
+        "text_yNwKmk": {
           "type": "text",
           "settings": {
             "text": "<p>Japanese proverb<\/p>"
@@ -106,8 +106,8 @@
         }
       },
       "block_order": [
-        "heading_T7kX7n",
-        "text_Nqe7Pk"
+        "heading_9BGFTm",
+        "text_yNwKmk"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -150,12 +150,43 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "rich_text_7FaHtr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_T7kX7n": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"There are two types of people: those who are able to open their hearts to others and those who are not. You are among the first.\"",
+            "heading_size": "h1"
+          }
+        },
+        "text_Nqe7Pk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Haruki Murakami, writer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_T7kX7n",
+        "text_Nqe7Pk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "collage_ngK7kG",
-    "rich_text_7FaHtr",
-    "collage_8FzijG"
+    "rich_text_8AannC",
+    "collage_8FzijG",
+    "rich_text_7FaHtr"
   ]
 }
