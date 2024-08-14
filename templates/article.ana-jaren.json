@@ -244,6 +244,53 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_with_text_M9X4Gt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dwNcmg": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"This series is a nod to the fashion editorials we find in magazines, featuring the styles alongside over-the-top fruits and vibrant colors\".",
+            "heading_size": "h2"
+          }
+        },
+        "text_CBf7nk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ana Jarén, artist<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_63XhHF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dwNcmg",
+        "text_CBf7nk",
+        "button_63XhHF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ANA_JAREN_WIP_FOTOS_13.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -253,6 +300,7 @@
     "collage_CLTpxe",
     "video_gYHdLc",
     "collage_nNeUHg",
-    "rich_text_PT3yyf"
+    "rich_text_PT3yyf",
+    "image_with_text_M9X4Gt"
   ]
 }
