@@ -174,6 +174,36 @@
         "padding_bottom": 16
       }
     },
+    "rich_text_PT3yyf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rx6t3P": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"In this work there is a play between the colors of the fruits, the clothes and the backgrounds, maximizing the contrast and creating a triangle based on tonalities\".",
+            "heading_size": "h2"
+          }
+        },
+        "text_tz3adL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ana Jarén, artist<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rx6t3P",
+        "text_tz3adL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collage_nNeUHg": {
       "type": "collage",
       "blocks": {
@@ -213,36 +243,6 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "rich_text_PT3yyf": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rx6t3P": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"In this work there is a play between the colors of the fruits, the clothes and the backgrounds, maximizing the contrast and creating a triangle based on tonalities\".",
-            "heading_size": "h2"
-          }
-        },
-        "text_tz3adL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ana Jarén, artist<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rx6t3P",
-        "text_tz3adL"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "image_with_text_M9X4Gt": {
@@ -299,8 +299,8 @@
     "rich_text_fFgAPh",
     "collage_CLTpxe",
     "video_gYHdLc",
-    "collage_nNeUHg",
     "rich_text_PT3yyf",
+    "collage_nNeUHg",
     "image_with_text_M9X4Gt"
   ]
 }
