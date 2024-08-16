@@ -193,13 +193,14 @@
         "column_UKcYVp": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Guntergallery-exposicion-25.png",
             "eager_loading": false,
-            "title": "Column",
+            "title": "",
             "font_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": "",
-            "internal": false,
+            "internal": true,
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "desktop_content_position": "bottom-left",
@@ -211,13 +212,14 @@
         "column_NAjt6p": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Guntergallery-exposicion-13.png",
             "eager_loading": false,
-            "title": "Column",
+            "title": "",
             "font_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": "",
-            "internal": false,
+            "internal": true,
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "desktop_content_position": "bottom-left",
@@ -229,13 +231,14 @@
         "column_LX8hRq": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Guntergallery-exposicion-26.png",
             "eager_loading": false,
-            "title": "Column",
+            "title": "",
             "font_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": "",
-            "internal": false,
+            "internal": true,
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "desktop_content_position": "bottom-left",
@@ -251,7 +254,7 @@
         "column_LX8hRq"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "header_alignment": "left",
         "image_width": "full",
