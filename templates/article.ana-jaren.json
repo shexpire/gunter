@@ -406,6 +406,42 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_banner_k68r9C": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6VK3BH": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_zqTBBq": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6VK3BH",
+        "text_zqTBBq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/guntergallery-juanmajmse-15.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
     }
   },
   "order": [
@@ -418,6 +454,7 @@
     "collage_nNeUHg",
     "image_with_text_M9X4Gt",
     "multicolumn_y7h4QE",
-    "rich_text_bF3hdk"
+    "rich_text_bF3hdk",
+    "image_banner_k68r9C"
   ]
 }
