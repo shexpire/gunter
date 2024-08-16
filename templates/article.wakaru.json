@@ -257,7 +257,7 @@
         "title": "",
         "heading_size": "h1",
         "header_alignment": "left",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
@@ -265,8 +265,8 @@
         "button_label": "More about her",
         "button_link": "shopify:\/\/collections\/wakaru",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
