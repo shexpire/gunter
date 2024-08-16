@@ -186,6 +186,87 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_jbLAUP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UKcYVp": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_NAjt6p": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_LX8hRq": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "column_UKcYVp",
+        "column_NAjt6p",
+        "column_LX8hRq"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "header_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "More about her",
+        "button_link": "shopify:\/\/collections\/wakaru",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -193,6 +274,7 @@
     "collage_ngK7kG",
     "rich_text_8AannC",
     "collage_8FzijG",
-    "rich_text_7FaHtr"
+    "rich_text_7FaHtr",
+    "multicolumn_jbLAUP"
   ]
 }
