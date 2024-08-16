@@ -121,10 +121,11 @@
     "collage_8FzijG": {
       "type": "collage",
       "blocks": {
-        "image_dAP9D8": {
-          "type": "image",
+        "product_QXmHfP": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Friends_05_web.jpg"
+            "product": "friends-06",
+            "second_image": false
           }
         },
         "image_pB7NHa": {
@@ -133,18 +134,18 @@
             "image": "shopify:\/\/shop_images\/WAKARUCHICADURMIENDOWEB.jpg"
           }
         },
-        "product_QXmHfP": {
+        "product_LzV8fy": {
           "type": "product",
           "settings": {
-            "product": "friends-06",
+            "product": "friends-05",
             "second_image": false
           }
         }
       },
       "block_order": [
-        "image_dAP9D8",
+        "product_QXmHfP",
         "image_pB7NHa",
-        "product_QXmHfP"
+        "product_LzV8fy"
       ],
       "settings": {
         "heading": "",
