@@ -128,17 +128,23 @@
             "second_image": false
           }
         },
-        "product_XxxPE3": {
-          "type": "product",
+        "image_dAP9D8": {
+          "type": "image",
           "settings": {
-            "product": "friends-05",
-            "second_image": false
+            "image": "shopify:\/\/shop_images\/Friends_05_web.jpg"
+          }
+        },
+        "image_pB7NHa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WAKARUCHICADURMIENDOWEB.jpg"
           }
         }
       },
       "block_order": [
         "product_QXmHfP",
-        "product_XxxPE3"
+        "image_dAP9D8",
+        "image_pB7NHa"
       ],
       "settings": {
         "heading": "",
