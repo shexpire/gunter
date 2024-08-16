@@ -81,7 +81,7 @@
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 0,
@@ -121,13 +121,6 @@
     "collage_8FzijG": {
       "type": "collage",
       "blocks": {
-        "product_QXmHfP": {
-          "type": "product",
-          "settings": {
-            "product": "friends-06",
-            "second_image": false
-          }
-        },
         "image_dAP9D8": {
           "type": "image",
           "settings": {
@@ -139,18 +132,25 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/WAKARUCHICADURMIENDOWEB.jpg"
           }
+        },
+        "product_QXmHfP": {
+          "type": "product",
+          "settings": {
+            "product": "friends-06",
+            "second_image": false
+          }
         }
       },
       "block_order": [
-        "product_QXmHfP",
         "image_dAP9D8",
-        "image_pB7NHa"
+        "image_pB7NHa",
+        "product_QXmHfP"
       ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 0,
