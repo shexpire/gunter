@@ -72,7 +72,7 @@
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 36,
@@ -112,47 +112,11 @@
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "right",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_jrEY4f": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_7pQDdX": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_MFXy9h": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7pQDdX",
-        "text_MFXy9h"
-      ],
-      "settings": {
-        "image_2": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-05-09_a_las_18.11.40.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "multicolumn_ypda9U": {
@@ -227,16 +191,52 @@
         "header_alignment": "left",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "WHO IS BORIS HOPPEK",
         "button_link": "shopify:\/\/collections\/boris-hoppek",
         "color_scheme": "",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_jrEY4f": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7pQDdX": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_MFXy9h": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7pQDdX",
+        "text_MFXy9h"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-05-09_a_las_18.11.40.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -244,7 +244,7 @@
     "main",
     "collage_bPNiHe",
     "collage_i4LjHA",
-    "image_banner_jrEY4f",
-    "multicolumn_ypda9U"
+    "multicolumn_ypda9U",
+    "image_banner_jrEY4f"
   ]
 }
