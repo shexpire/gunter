@@ -178,12 +178,32 @@
             "mobile_content_position": "middle-center",
             "mobile_content_alignment": "center"
           }
+        },
+        "column_fVa6rj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-05-09_a_las_18.10.49.png",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
         }
       },
       "block_order": [
         "column_gdgyAt",
         "column_NpN689",
-        "column_mQVhyA"
+        "column_mQVhyA",
+        "column_fVa6rj"
       ],
       "settings": {
         "title": "",
