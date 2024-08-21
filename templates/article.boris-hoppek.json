@@ -21,14 +21,8 @@
         "title": {
           "type": "title",
           "settings": {
-            "blog_show_date": true,
+            "blog_show_date": false,
             "blog_show_author": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         },
         "content": {
@@ -40,14 +34,54 @@
       "block_order": [
         "featured_image",
         "title",
-        "share",
         "content"
       ],
       "settings": {
       }
+    },
+    "collage_bPNiHe": {
+      "type": "collage",
+      "blocks": {
+        "image_PNgUKr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bimbo-03_web.jpg"
+          }
+        },
+        "product_Ep4iPe": {
+          "type": "product",
+          "settings": {
+            "product": "bimbo-01",
+            "second_image": false
+          }
+        },
+        "product_XmgnUB": {
+          "type": "product",
+          "settings": {
+            "product": "bimbo-01",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_PNgUKr",
+        "product_Ep4iPe",
+        "product_XmgnUB"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collage_bPNiHe"
   ]
 }
