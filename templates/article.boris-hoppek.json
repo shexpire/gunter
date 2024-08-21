@@ -321,6 +321,99 @@
         "padding_bottom": 16
       }
     },
+    "multicolumn_PRiB8r": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nj7tWU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Guntergallery-exposicion-07_baja.png",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/boris-hoppek",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_dgq7R9": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Bimbo, the character of Boris Hoppek",
+            "font_size": "h3",
+            "text": "<p>A black figure with red lips that the artist has painted in numerous forms and situations, both on canvas or paper and on street walls. Bimbo is his most recognizable icon and serves to tell stories of social denunciation and show his black humor and political criticism. <\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "column_nj7tWU",
+        "column_dgq7R9"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "header_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "WHO IS BORIS HOPPEK",
+        "button_link": "shopify:\/\/collections\/boris-hoppek",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_RNY3Eb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DD8Hbm": {
+          "type": "heading",
+          "settings": {
+            "heading": "They do not always reach the shore",
+            "heading_size": "h2"
+          }
+        },
+        "text_GqPCDx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Eleven people died every day in the Mediterranean Sea trying to reach Europe according to the Spanish Refugee Aid Commission.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DD8Hbm",
+        "text_GqPCDx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    },
     "image_banner_jrEY4f": {
       "type": "image-banner",
       "blocks": {
@@ -366,6 +459,8 @@
     "rich_text_3pQNbA",
     "multicolumn_ypda9U",
     "image_with_text_TzDCkB",
+    "multicolumn_PRiB8r",
+    "rich_text_RNY3Eb",
     "image_banner_jrEY4f"
   ]
 }
