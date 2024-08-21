@@ -85,8 +85,8 @@
         "heading_RTBch4": {
           "type": "heading",
           "settings": {
-            "heading": "",
-            "heading_size": "h1"
+            "heading": "Migration is not always optional",
+            "heading_size": "h2"
           }
         },
         "text_mhctK3": {
