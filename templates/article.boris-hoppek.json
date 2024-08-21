@@ -289,30 +289,21 @@
         "heading_mfBgL6": {
           "type": "heading",
           "settings": {
-            "heading": "Bimbo, the c",
-            "heading_size": "h1"
+            "heading": "Bimbo, the character of Boris Hoppek",
+            "heading_size": "h2"
           }
         },
         "text_d7MrBy": {
           "type": "text",
           "settings": {
-            "text": "<p>Bimbo is the famous character that has given Boris Hoppek worldwide <br\/>recognition. A black figure with red lips that the artist has painted in<br\/> numerous forms and situations, both on canvas or paper and on street walls. Bimbo is his most recognizable icon and serves to tell stories of social denunciation and show his black humor and political criticism. To have one of these originals is also to have a bit of the most committed urban art of the 2000s, pioneer of the new figuration of contemporary art that is so much in demand today by art collectors <br\/>around the world.<\/p>",
+            "text": "<p>A black figure with red lips that the artist has painted in numerous forms and situations, both on canvas or paper and on street walls. Bimbo is his most recognizable icon and serves to tell stories of social denunciation and show his black humor and political criticism. <\/p>",
             "text_style": "body"
-          }
-        },
-        "button_KdWGhx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_mfBgL6",
-        "text_d7MrBy",
-        "button_KdWGhx"
+        "text_d7MrBy"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Guntergallery-exposicion-07_baja.png",
