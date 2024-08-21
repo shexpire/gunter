@@ -283,6 +283,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_TzDCkB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mfBgL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bimbo, the c",
+            "heading_size": "h1"
+          }
+        },
+        "text_d7MrBy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bimbo is the famous character that has given Boris Hoppek worldwide <br\/>recognition. A black figure with red lips that the artist has painted in<br\/> numerous forms and situations, both on canvas or paper and on street walls. Bimbo is his most recognizable icon and serves to tell stories of social denunciation and show his black humor and political criticism. To have one of these originals is also to have a bit of the most committed urban art of the 2000s, pioneer of the new figuration of contemporary art that is so much in demand today by art collectors <br\/>around the world.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_KdWGhx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mfBgL6",
+        "text_d7MrBy",
+        "button_KdWGhx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Guntergallery-exposicion-07_baja.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
     "image_banner_jrEY4f": {
       "type": "image-banner",
       "blocks": {
@@ -327,6 +374,7 @@
     "collage_i4LjHA",
     "rich_text_3pQNbA",
     "multicolumn_ypda9U",
+    "image_with_text_TzDCkB",
     "image_banner_jrEY4f"
   ]
 }
