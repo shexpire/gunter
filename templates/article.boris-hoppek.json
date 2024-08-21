@@ -78,10 +78,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_i4LjHA": {
+      "type": "collage",
+      "blocks": {
+        "product_nwyqhx": {
+          "type": "product",
+          "settings": {
+            "product": "money",
+            "second_image": false
+          }
+        },
+        "product_LUWfdf": {
+          "type": "product",
+          "settings": {
+            "product": "dead-bimbo-1",
+            "second_image": false
+          }
+        },
+        "image_fDCgt8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bimbo_Espinas.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "product_nwyqhx",
+        "product_LUWfdf",
+        "image_fDCgt8"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "collage_bPNiHe"
+    "collage_bPNiHe",
+    "collage_i4LjHA"
   ]
 }
