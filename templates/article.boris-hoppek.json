@@ -149,6 +149,36 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_3pQNbA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QgU78e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Migration is not always optional",
+            "heading_size": "h2"
+          }
+        },
+        "text_f8wAKT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Eleven people died every day at sea trying to reach Europe according to the Spanish Refugee Aid Commission.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QgU78e",
+        "text_f8wAKT"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
     "multicolumn_ypda9U": {
       "type": "multicolumn",
       "blocks": {
@@ -295,6 +325,7 @@
     "collage_bPNiHe",
     "rich_text_NFJKyb",
     "collage_i4LjHA",
+    "rich_text_3pQNbA",
     "multicolumn_ypda9U",
     "image_banner_jrEY4f"
   ]
