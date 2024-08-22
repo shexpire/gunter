@@ -312,6 +312,36 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_cmME6f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JGETTY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Universal Declaration of Human Rights (article 13)",
+            "heading_size": "h2"
+          }
+        },
+        "text_KgikyH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everyone has the right to freedom of movement and residence within the borders of each state. Everyone has the right to leave any country, including his own, and to return to his country. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JGETTY",
+        "text_KgikyH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
     "image_banner_jrEY4f": {
       "type": "image-banner",
       "blocks": {
@@ -357,6 +387,7 @@
     "rich_text_3pQNbA",
     "multicolumn_ypda9U",
     "featured_collection_Vn8BWt",
+    "rich_text_cmME6f",
     "image_banner_jrEY4f"
   ]
 }
