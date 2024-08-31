@@ -310,6 +310,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_8UaQfh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rpdqgW": {
+          "type": "heading",
+          "settings": {
+            "heading": "What was going on while everyone was locket up?",
+            "heading_size": "h2"
+          }
+        },
+        "text_JCW4B9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>He has counted each day, crossing it on the calendar with the red pencil. He has seen how birds fly, sound, sing, breeze, sound, trees… since dawn and with that same red color. No matter the hours, they set the pace, with the numbers crossed out. A beat and the luck of listening to them.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rpdqgW",
+        "text_JCW4B9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -319,6 +349,7 @@
     "featured_collection_gVK6D3",
     "collage_XMYRkC",
     "video_CRNHnM",
-    "multicolumn_LCYRfx"
+    "multicolumn_LCYRfx",
+    "rich_text_8UaQfh"
   ]
 }
