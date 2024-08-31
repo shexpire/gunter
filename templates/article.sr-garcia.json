@@ -141,11 +141,10 @@
     "collage_XMYRkC": {
       "type": "collage",
       "blocks": {
-        "product_PrQUx4": {
-          "type": "product",
+        "image_c97EP8": {
+          "type": "image",
           "settings": {
-            "product": "escucha-la-noche",
-            "second_image": true
+            "image": "shopify:\/\/shop_images\/IMG_3557.jpg"
           }
         },
         "product_zADd4D": {
@@ -164,7 +163,7 @@
         }
       },
       "block_order": [
-        "product_PrQUx4",
+        "image_c97EP8",
         "product_zADd4D",
         "product_YixpJy"
       ],
