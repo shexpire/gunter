@@ -269,6 +269,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_peifpc": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Making_3_fe686913-4c14-48da-93ed-8144a527b9b4.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -277,6 +293,7 @@
     "rich_text_jtytNC",
     "collage_MEnBcb",
     "rich_text_bmJa8d",
-    "multicolumn_zMG8C9"
+    "multicolumn_zMG8C9",
+    "image_banner_peifpc"
   ]
 }
