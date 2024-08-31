@@ -251,6 +251,36 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_agwEYf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D4PHX7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Paviment, traffic and noise havedisappeared",
+            "heading_size": "h2"
+          }
+        },
+        "text_UrNzpE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Another day that ends, but tomorrow, as always walking on the sidewalk, looking east, birds will return. The brick wall in front has changed its color every morning, every afternoon. And they have been flying above it, with the clouds.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D4PHX7",
+        "text_UrNzpE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "video_CRNHnM": {
       "type": "video",
       "settings": {
@@ -370,36 +400,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_agwEYf": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_D4PHX7": {
-          "type": "heading",
-          "settings": {
-            "heading": "Paviment, traffic and noise havedisappeared",
-            "heading_size": "h2"
-          }
-        },
-        "text_UrNzpE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Another day that ends, but tomorrow, as always walking on the sidewalk, looking east, birds will return. The brick wall in front has changed its color every morning, every afternoon. And they have been flying above it, with the clouds.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_D4PHX7",
-        "text_UrNzpE"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -410,8 +410,8 @@
     "rich_text_d94466",
     "featured_collection_gVK6D3",
     "collage_XMYRkC",
+    "rich_text_agwEYf",
     "video_CRNHnM",
-    "multicolumn_LCYRfx",
-    "rich_text_agwEYf"
+    "multicolumn_LCYRfx"
   ]
 }
