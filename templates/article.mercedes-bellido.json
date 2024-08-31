@@ -185,6 +185,88 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_zMG8C9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_td7a4K": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_MhKth4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Perro_Mercedes_Bellido.jpg",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_xUiJbr": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "column_td7a4K",
+        "column_MhKth4",
+        "column_xUiJbr"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "header_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Who is Mercedes Bellido",
+        "button_link": "shopify:\/\/collections\/mercedes-bellido",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -192,6 +274,7 @@
     "collage_XLHjEb",
     "rich_text_jtytNC",
     "collage_MEnBcb",
-    "rich_text_bmJa8d"
+    "rich_text_bmJa8d",
+    "multicolumn_zMG8C9"
   ]
 }
