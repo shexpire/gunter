@@ -21,14 +21,14 @@
         "title": {
           "type": "title",
           "settings": {
-            "blog_show_date": true,
+            "blog_show_date": false,
             "blog_show_author": false
           }
         },
         "share": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": ""
           }
         },
         "content": {
@@ -45,9 +45,51 @@
       ],
       "settings": {
       }
+    },
+    "collage_XLHjEb": {
+      "type": "collage",
+      "blocks": {
+        "product_7CCeWW": {
+          "type": "product",
+          "settings": {
+            "product": "jarron-paraiso",
+            "second_image": true
+          }
+        },
+        "product_3BDkN6": {
+          "type": "product",
+          "settings": {
+            "product": "el-pavo-de-la-cartujana",
+            "second_image": true
+          }
+        },
+        "product_KC8etP": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "product_7CCeWW",
+        "product_3BDkN6",
+        "product_KC8etP"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collage_XLHjEb"
   ]
 }
