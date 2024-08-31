@@ -86,6 +86,36 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_jtytNC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LHNQgH": {
+          "type": "heading",
+          "settings": {
+            "heading": "The power of clay",
+            "heading_size": "h1"
+          }
+        },
+        "text_73xcqw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Clay is a primordial material, formed by two of the main elements that make up our planet, earth and water. It has very spiritual connotations to mould from ‘nothing’ and obtain something as delicate and beautiful as pottery\".<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LHNQgH",
+        "text_73xcqw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collage_MEnBcb": {
       "type": "collage",
       "blocks": {
@@ -130,6 +160,7 @@
   "order": [
     "main",
     "collage_XLHjEb",
+    "rich_text_jtytNC",
     "collage_MEnBcb"
   ]
 }
