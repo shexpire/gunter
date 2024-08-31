@@ -174,15 +174,16 @@
     "rich_text_heVyVp": {
       "type": "rich-text",
       "blocks": {
-        "text_P7yhPW": {
-          "type": "text",
+        "heading_GzQy3M": {
+          "type": "heading",
           "settings": {
-            "text": "<p>A tense silence, together with the moans of each movement, culminates in an applause after the final blow.<\/p>"
+            "heading": "Two fighters know theend for one of them is close, and they will be linked for that moment forever.",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "text_P7yhPW"
+        "heading_GzQy3M"
       ],
       "settings": {
         "desktop_content_position": "center",
