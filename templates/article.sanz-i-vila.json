@@ -89,36 +89,36 @@
     "collage_LKMHt3": {
       "type": "collage",
       "blocks": {
-        "image_czVWP8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Exposicion_Roma_1.jpg"
-          }
-        },
         "product_TXmiaC": {
           "type": "product",
           "settings": {
-            "product": "la-cobardia",
+            "product": "juego-sucio",
             "second_image": false
           }
         },
         "product_QNRQNU": {
           "type": "product",
           "settings": {
-            "product": "el-traspie",
+            "product": "la-estocada",
             "second_image": false
+          }
+        },
+        "image_czVWP8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Exposicion_Roma_1.jpg"
           }
         }
       },
       "block_order": [
-        "image_czVWP8",
         "product_TXmiaC",
-        "product_QNRQNU"
+        "product_QNRQNU",
+        "image_czVWP8"
       ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
