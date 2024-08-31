@@ -197,18 +197,19 @@
     "multicolumn_xQbKR3": {
       "type": "multicolumn",
       "blocks": {
-        "column_JG6cmn": {
+        "column_zpbXaR": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Exposicion_Roma_4.jpg",
             "eager_loading": false,
-            "title": "A tense silence, together with the moans of each movement, culminates in an applause after the final blow.",
-            "font_size": "h3",
+            "title": "",
+            "font_size": "h2",
             "text": "",
             "link_label": "",
             "link": "",
-            "internal": false,
+            "internal": true,
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "left",
             "mobile_content_position": "middle-center",
@@ -228,6 +229,25 @@
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "center",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_fbBb3n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Exposicion_Roma_2.jpg",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "left",
             "mobile_content_position": "middle-center",
             "mobile_content_alignment": "center"
@@ -235,8 +255,9 @@
         }
       },
       "block_order": [
-        "column_JG6cmn",
-        "column_yekjYD"
+        "column_zpbXaR",
+        "column_yekjYD",
+        "column_fbBb3n"
       ],
       "settings": {
         "title": "",
@@ -244,9 +265,9 @@
         "header_alignment": "left",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "WHO IS PAU SANZ I VILA",
         "button_link": "shopify:\/\/collections\/sanz-i-vila",
         "color_scheme": "",
