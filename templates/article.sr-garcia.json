@@ -137,12 +137,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_XMYRkC": {
+      "type": "collage",
+      "blocks": {
+        "product_PrQUx4": {
+          "type": "product",
+          "settings": {
+            "product": "escucha-la-noche",
+            "second_image": true
+          }
+        },
+        "product_zADd4D": {
+          "type": "product",
+          "settings": {
+            "product": "mira-y-escucha",
+            "second_image": true
+          }
+        },
+        "product_YixpJy": {
+          "type": "product",
+          "settings": {
+            "product": "escuchala",
+            "second_image": true
+          }
+        }
+      },
+      "block_order": [
+        "product_PrQUx4",
+        "product_zADd4D",
+        "product_YixpJy"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "collage_PxQ6GA",
     "collage_cxAiyb",
-    "video_CRNHnM"
+    "video_CRNHnM",
+    "collage_XMYRkC"
   ]
 }
