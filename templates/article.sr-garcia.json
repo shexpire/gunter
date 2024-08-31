@@ -297,6 +297,36 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_J44ddp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KdJprL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Paviment, traffic and noise have disappeared",
+            "heading_size": "h2"
+          }
+        },
+        "text_7NHTUM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Any morning, looking at the park opposite. Any afternoon, with cold or with the return of heat. He hasn't stopped looking for birds. They helped and brought encouragement when he need them. Thanks for the nights, the sun and those voices among branches!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KdJprL",
+        "text_7NHTUM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_LCYRfx": {
       "type": "multicolumn",
       "blocks": {
@@ -412,6 +442,7 @@
     "collage_XMYRkC",
     "rich_text_agwEYf",
     "video_CRNHnM",
+    "rich_text_J44ddp",
     "multicolumn_LCYRfx"
   ]
 }
