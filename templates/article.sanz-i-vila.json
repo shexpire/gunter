@@ -85,10 +85,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "video_nhWCCx": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/Roma_Exposicion_Sanz_i_Vila_1080_Low_2.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Captura_de_pantalla_2020-10-17_a_las_12.56.16_3b065fb8-d865-4f80-ac12-5da87e22ba15.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "collage_nUxc4M"
+    "collage_nUxc4M",
+    "video_nhWCCx"
   ]
 }
