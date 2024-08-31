@@ -197,10 +197,10 @@
     "multicolumn_xQbKR3": {
       "type": "multicolumn",
       "blocks": {
-        "column_zpbXaR": {
+        "column_aGgJc6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Exposicion_Roma_4.jpg",
+            "image": "shopify:\/\/shop_images\/Pau_Sanz_i_Vila_trabajando.png",
             "eager_loading": false,
             "title": "",
             "font_size": "h2",
@@ -216,20 +216,21 @@
             "mobile_content_alignment": "center"
           }
         },
-        "column_yekjYD": {
+        "column_zpbXaR": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Exposicion_Roma_4.jpg",
             "eager_loading": false,
-            "title": "A certain hit marks theend of the show, ending one life, changing another forever and brightening theafternoon for hundreds of them.",
+            "title": "",
             "font_size": "h2",
             "text": "",
             "link_label": "",
             "link": "",
-            "internal": false,
+            "internal": true,
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "desktop_content_position": "bottom-left",
-            "desktop_content_alignment": "center",
+            "desktop_content_alignment": "left",
             "mobile_content_position": "middle-center",
             "mobile_content_alignment": "center"
           }
@@ -255,8 +256,8 @@
         }
       },
       "block_order": [
+        "column_aGgJc6",
         "column_zpbXaR",
-        "column_yekjYD",
         "column_fbBb3n"
       ],
       "settings": {
@@ -264,14 +265,14 @@
         "heading_size": "h1",
         "header_alignment": "left",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "WHO IS PAU SANZ I VILA",
         "button_link": "shopify:\/\/collections\/sanz-i-vila",
         "color_scheme": "",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
