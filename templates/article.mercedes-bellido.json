@@ -49,6 +49,12 @@
     "collage_XLHjEb": {
       "type": "collage",
       "blocks": {
+        "image_7UXP6n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cerco_Bellido.jpg"
+          }
+        },
         "product_7CCeWW": {
           "type": "product",
           "settings": {
@@ -62,29 +68,22 @@
             "product": "el-pavo-de-la-cartujana",
             "second_image": true
           }
-        },
-        "product_KC8etP": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
         }
       },
       "block_order": [
+        "image_7UXP6n",
         "product_7CCeWW",
-        "product_3BDkN6",
-        "product_KC8etP"
+        "product_3BDkN6"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "mobile_layout": "collage",
+        "card_styles": "none",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 28
       }
     }
   },
