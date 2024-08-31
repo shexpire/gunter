@@ -178,6 +178,28 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_adtq9J": {
+      "type": "rich-text",
+      "blocks": {
+        "text_V3mVTH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking at the past helps us to see that everything could have been different. Knowing how to react quickly at the exact moment can change everything in a second.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_V3mVTH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "video_nhWCCx": {
       "type": "video",
       "settings": {
@@ -194,18 +216,28 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_adtq9J": {
+    "rich_text_XU3y8B": {
       "type": "rich-text",
       "blocks": {
-        "text_V3mVTH": {
-          "type": "text",
+        "heading_GYVwC3": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Looking at the past helps us to see that everything could have been different. Knowing how to react quickly at the exact moment can change everything in a second.<\/p>"
+            "heading": "‘When you aspire to reach the highest position, remember that second, or third position is honourable’.",
+            "heading_size": "h1"
+          }
+        },
+        "caption_NjNRyX": {
+          "type": "caption",
+          "settings": {
+            "caption": "ciceron, Roman philosopher",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
-        "text_V3mVTH"
+        "heading_GYVwC3",
+        "caption_NjNRyX"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -319,38 +351,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_XU3y8B": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GYVwC3": {
-          "type": "heading",
-          "settings": {
-            "heading": "‘When you aspire to reach the highest position, remember that second, or third position is honourable’.",
-            "heading_size": "h1"
-          }
-        },
-        "caption_NjNRyX": {
-          "type": "caption",
-          "settings": {
-            "caption": "ciceron, Roman philosopher",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GYVwC3",
-        "caption_NjNRyX"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -359,9 +359,9 @@
     "rich_text_heVyVp",
     "featured_collection_bfmFeR",
     "collage_LKMHt3",
-    "video_nhWCCx",
     "rich_text_adtq9J",
-    "multicolumn_xQbKR3",
-    "rich_text_XU3y8B"
+    "video_nhWCCx",
+    "rich_text_XU3y8B",
+    "multicolumn_xQbKR3"
   ]
 }
