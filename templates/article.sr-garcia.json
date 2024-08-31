@@ -61,10 +61,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collage_PxQ6GA": {
+      "type": "collage",
+      "blocks": {
+        "image_t9YQzY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sr_GArcia_Quinto_B.jpg"
+          }
+        },
+        "image_X4rcKL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sr_Garcia_Segundo_ext_dcha.jpg"
+          }
+        },
+        "image_GFCmGM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sixth_Floor_Sr_Garcia.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_t9YQzY",
+        "image_X4rcKL",
+        "image_GFCmGM"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "video_CRNHnM"
+    "video_CRNHnM",
+    "collage_PxQ6GA"
   ]
 }
