@@ -85,10 +85,51 @@
         "padding_top": 8,
         "padding_bottom": 28
       }
+    },
+    "collage_MEnBcb": {
+      "type": "collage",
+      "blocks": {
+        "product_Lm6F8p": {
+          "type": "product",
+          "settings": {
+            "product": "jarra-rusa",
+            "second_image": true
+          }
+        },
+        "product_h8GMWx": {
+          "type": "product",
+          "settings": {
+            "product": "jarron-con-dragon",
+            "second_image": true
+          }
+        },
+        "image_rdM8bV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mercedes_Bellido_Gunter_Gallery.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_Lm6F8p",
+        "product_h8GMWx",
+        "image_rdM8bV"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
     "main",
-    "collage_XLHjEb"
+    "collage_XLHjEb",
+    "collage_MEnBcb"
   ]
 }
