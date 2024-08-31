@@ -253,12 +253,32 @@
             "mobile_content_position": "middle-center",
             "mobile_content_alignment": "center"
           }
+        },
+        "column_YJWN6R": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sanz_i_Vila.png",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
         }
       },
       "block_order": [
         "column_aGgJc6",
         "column_zpbXaR",
-        "column_fbBb3n"
+        "column_fbBb3n",
+        "column_YJWN6R"
       ],
       "settings": {
         "title": "",
