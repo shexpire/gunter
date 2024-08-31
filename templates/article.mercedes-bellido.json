@@ -89,7 +89,7 @@
     "rich_text_jtytNC": {
       "type": "rich-text",
       "blocks": {
-        "heading_LHNQgH": {
+        "heading_ymQtbT": {
           "type": "heading",
           "settings": {
             "heading": "The power of clay",
@@ -104,7 +104,7 @@
         }
       },
       "block_order": [
-        "heading_LHNQgH",
+        "heading_ymQtbT",
         "text_73xcqw"
       ],
       "settings": {
@@ -155,12 +155,43 @@
         "padding_top": 8,
         "padding_bottom": 28
       }
+    },
+    "rich_text_bmJa8d": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YKc4E3": {
+          "type": "heading",
+          "settings": {
+            "heading": "The four elements",
+            "heading_size": "h1"
+          }
+        },
+        "text_4LTqGX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"In ceramics the four elements appear, earth and water to obtain the clay, air to dry the piece and the fire of the kiln to fire the pieces. I have always been attracted to ceramics, I love to see the potter's wheel turning and the apparent ease with which he modelled the clay\".<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YKc4E3",
+        "text_4LTqGX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "collage_XLHjEb",
     "rich_text_jtytNC",
-    "collage_MEnBcb"
+    "collage_MEnBcb",
+    "rich_text_bmJa8d"
   ]
 }
