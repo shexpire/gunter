@@ -122,18 +122,31 @@
         "padding_bottom": 36
       }
     },
-    "video_CRNHnM": {
-      "type": "video",
+    "featured_collection_gVK6D3": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "",
+        "title": "",
         "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/Gunter_Sr.Garcia_EMAIL.mp4",
-        "video_url": "",
-        "cover_image": "shopify:\/\/shop_images\/Captura_de_pantalla_2020-06-29_a_las_14.09.56.png",
+        "header_alignment": "left",
         "description": "",
-        "full_width": true,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sr-garcia",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -176,6 +189,22 @@
         "color_scheme": "",
         "padding_top": 24,
         "padding_bottom": 28
+      }
+    },
+    "video_CRNHnM": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Gunter_Sr.Garcia_EMAIL.mp4",
+        "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/Captura_de_pantalla_2020-06-29_a_las_14.09.56.png",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_LCYRfx": {
@@ -281,44 +310,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_collection_gVK6D3": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "header_alignment": "left",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "sr-garcia",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "collage_PxQ6GA",
     "collage_cxAiyb",
-    "video_CRNHnM",
+    "featured_collection_gVK6D3",
     "collage_XMYRkC",
-    "multicolumn_LCYRfx",
-    "featured_collection_gVK6D3"
+    "video_CRNHnM",
+    "multicolumn_LCYRfx"
   ]
 }
