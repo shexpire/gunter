@@ -109,6 +109,28 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_adtq9J": {
+      "type": "rich-text",
+      "blocks": {
+        "text_V3mVTH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking at the past helps us to see that everything could have been different. Knowing how to react quickly at the exact moment can change everything in a second.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_V3mVTH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection_bfmFeR": {
       "type": "featured-collection",
       "settings": {
@@ -303,6 +325,7 @@
     "main",
     "collage_nUxc4M",
     "rich_text_heVyVp",
+    "rich_text_adtq9J",
     "featured_collection_bfmFeR",
     "collage_LKMHt3",
     "video_nhWCCx",
