@@ -86,6 +86,46 @@
         "padding_bottom": 36
       }
     },
+    "collage_LKMHt3": {
+      "type": "collage",
+      "blocks": {
+        "image_czVWP8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Exposicion_Roma_1.jpg"
+          }
+        },
+        "product_TXmiaC": {
+          "type": "product",
+          "settings": {
+            "product": "la-cobardia",
+            "second_image": false
+          }
+        },
+        "product_QNRQNU": {
+          "type": "product",
+          "settings": {
+            "product": "el-traspie",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_czVWP8",
+        "product_TXmiaC",
+        "product_QNRQNU"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "video_nhWCCx": {
       "type": "video",
       "settings": {
@@ -106,6 +146,7 @@
   "order": [
     "main",
     "collage_nUxc4M",
+    "collage_LKMHt3",
     "video_nhWCCx"
   ]
 }
