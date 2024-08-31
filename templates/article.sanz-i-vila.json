@@ -96,7 +96,7 @@
         "video_url": "",
         "cover_image": "shopify:\/\/shop_images\/Captura_de_pantalla_2020-10-17_a_las_12.56.16_3b065fb8-d865-4f80-ac12-5da87e22ba15.png",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
