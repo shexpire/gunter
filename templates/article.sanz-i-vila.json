@@ -109,38 +109,6 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_XU3y8B": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GYVwC3": {
-          "type": "heading",
-          "settings": {
-            "heading": "‘When you aspire to reach the highest position, remember that second, or third position is honourable’.",
-            "heading_size": "h1"
-          }
-        },
-        "caption_NjNRyX": {
-          "type": "caption",
-          "settings": {
-            "caption": "ciceron, Roman philosopher",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GYVwC3",
-        "caption_NjNRyX"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "featured_collection_bfmFeR": {
       "type": "featured-collection",
       "settings": {
@@ -351,17 +319,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_XU3y8B": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GYVwC3": {
+          "type": "heading",
+          "settings": {
+            "heading": "‘When you aspire to reach the highest position, remember that second, or third position is honourable’.",
+            "heading_size": "h1"
+          }
+        },
+        "caption_NjNRyX": {
+          "type": "caption",
+          "settings": {
+            "caption": "ciceron, Roman philosopher",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GYVwC3",
+        "caption_NjNRyX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "collage_nUxc4M",
     "rich_text_heVyVp",
-    "rich_text_XU3y8B",
     "featured_collection_bfmFeR",
     "collage_LKMHt3",
     "video_nhWCCx",
     "rich_text_adtq9J",
-    "multicolumn_xQbKR3"
+    "multicolumn_xQbKR3",
+    "rich_text_XU3y8B"
   ]
 }
