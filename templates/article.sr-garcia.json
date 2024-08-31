@@ -152,6 +152,36 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_d94466": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_e3qT4E": {
+          "type": "heading",
+          "settings": {
+            "heading": "Is it just a memory?",
+            "heading_size": "h2"
+          }
+        },
+        "text_CXixYx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>That moment, all these moments, so many moments. So many minutes, hours, long days, giants. Life has not stopped and haunted him, every moment. He has lived, he has dreamed, birds have accompanied him.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e3qT4E",
+        "text_CXixYx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection_gVK6D3": {
       "type": "featured-collection",
       "settings": {
@@ -341,26 +371,26 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_d94466": {
+    "rich_text_agwEYf": {
       "type": "rich-text",
       "blocks": {
-        "heading_e3qT4E": {
+        "heading_D4PHX7": {
           "type": "heading",
           "settings": {
-            "heading": "Is it just a memory?",
+            "heading": "Paviment, traffic and noise havedisappeared",
             "heading_size": "h2"
           }
         },
-        "text_CXixYx": {
+        "text_UrNzpE": {
           "type": "text",
           "settings": {
-            "text": "<p>That moment, all these moments, so many moments. So many minutes, hours, long days, giants. Life has not stopped and haunted him, every moment. He has lived, he has dreamed, birds have accompanied him.<\/p>"
+            "text": "<p>Another day that ends, but tomorrow, as always walking on the sidewalk, looking east, birds will return. The brick wall in front has changed its color every morning, every afternoon. And they have been flying above it, with the clouds.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_e3qT4E",
-        "text_CXixYx"
+        "heading_D4PHX7",
+        "text_UrNzpE"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -377,10 +407,11 @@
     "collage_PxQ6GA",
     "rich_text_8UaQfh",
     "collage_cxAiyb",
+    "rich_text_d94466",
     "featured_collection_gVK6D3",
     "collage_XMYRkC",
     "video_CRNHnM",
     "multicolumn_LCYRfx",
-    "rich_text_d94466"
+    "rich_text_agwEYf"
   ]
 }
