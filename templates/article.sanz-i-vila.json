@@ -86,6 +86,29 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_heVyVp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GzQy3M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Two fighters know theend for one of them is close, and they will be linked for that moment forever.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzQy3M"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection_bfmFeR": {
       "type": "featured-collection",
       "settings": {
@@ -171,36 +194,95 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_heVyVp": {
-      "type": "rich-text",
+    "multicolumn_xQbKR3": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_GzQy3M": {
-          "type": "heading",
+        "column_JG6cmn": {
+          "type": "column",
           "settings": {
-            "heading": "Two fighters know theend for one of them is close, and they will be linked for that moment forever.",
-            "heading_size": "h1"
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_yekjYD": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_mMwVYE": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
           }
         }
       },
       "block_order": [
-        "heading_GzQy3M"
+        "column_JG6cmn",
+        "column_yekjYD",
+        "column_mMwVYE"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "header_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "WHO IS PAU SANZ I VILA",
+        "button_link": "shopify:\/\/collections\/sanz-i-vila",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "collage_nUxc4M",
+    "rich_text_heVyVp",
     "featured_collection_bfmFeR",
     "collage_LKMHt3",
     "video_nhWCCx",
-    "rich_text_heVyVp"
+    "multicolumn_xQbKR3"
   ]
 }
