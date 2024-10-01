@@ -17,14 +17,14 @@
         "heading_p6zF6X": {
           "type": "heading",
           "settings": {
-            "heading": "€10 discount on your first order",
+            "heading": "€10 off first order",
             "heading_size": "h2"
           }
         },
         "paragraph_xTwPLT": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Subscribe to our newsletter<\/p>"
+            "text": "<p>Subscribe to our newsletter</p>"
           }
         },
         "email_form_9BFYbg": {
@@ -53,8 +53,8 @@
         "newsletter_timer": 15,
         "newsletter_open_again": 7,
         "title": "€10 discount on your first order",
-        "description": "<p>Join us for the latest news from our artists<\/p>",
-        "legal_checkbox": "<p>By sharing your details you agree to our <a href=\"https:\/\/guntergallery.com\/pages\/condiciones-de-uso\" title=\"Terms of use\">Privacy Policy and Terms and Conditions<\/a>, and will receive gallery newsletters.<\/p>"
+        "description": "<p>Join us for the latest news from our artists</p>",
+        "legal_checkbox": "<p>By sharing your details you agree to our <a href=\"https://guntergallery.com/pages/condiciones-de-uso\" title=\"Terms of use\">Privacy Policy and Terms and Conditions</a>, and will receive gallery newsletters.</p>"
       }
     },
     "footer": {
@@ -63,7 +63,7 @@
         "image_JMQkAj": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-gunter-white.png",
+            "image": "shopify://shop_images/logo-gunter-white.png",
             "image_width": 205,
             "alignment": ""
           }
