@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "The answer is here",
-            "button_link_1": "shopify:\/\/collections\/jean-jullien",
+            "button_link_1": "shopify://collections/jean-jullien",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,8 +36,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-10-18_a_las_16.15.01.png",
-        "image_2": "shopify:\/\/shop_images\/jean-jullien-jardin-des-plantes-8-1594754702.jpg",
+        "image": "shopify://shop_images/Captura_de_pantalla_2023-10-18_a_las_16.15.01.png",
+        "image_2": "shopify://shop_images/jean-jullien-jardin-des-plantes-8-1594754702.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -93,7 +93,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "the artwork you need",
-            "button_link_1": "shopify:\/\/collections\/ricardo-cavolo",
+            "button_link_1": "shopify://collections/ricardo-cavolo",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -106,8 +106,8 @@
         "buttons_9Qying"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ricardo_y_gorra.jpg",
-        "image_2": "shopify:\/\/shop_images\/toni_03.jpg",
+        "image": "shopify://shop_images/Ricardo_y_gorra.jpg",
+        "image_2": "shopify://shop_images/toni_03.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -126,14 +126,14 @@
         "column_jydhAd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp",
-            "video": "shopify:\/\/files\/videos\/lv_0_20220707163452_d2490dd1-a7f6-44d9-93c0-9265e197b9c6.mp4",
+            "image": "shopify://shop_images/mercedes_bellido_caballosycolumna.webp",
+            "video": "shopify://files/videos/5943768F63489C9F3EBD421BEFBEBAB2_video_dashinit - Compressed with FlexClip.mp4",
             "eager_loading": false,
             "title": "",
             "font_size": "h4",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/ana-jaren",
+            "link": "shopify://collections/ana-jaren",
             "internal": true,
             "image_overlay_opacity": 10,
             "color_scheme": "inverse",
@@ -146,17 +146,35 @@
         "column_HQkYHU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp",
-            "video": "shopify:\/\/files\/videos\/Gunter Ingles Sin marco - Compressed with FlexClip.mp4",
+            "image": "shopify://shop_images/Luchadores_XS_larga.webp",
+            "video": "shopify://files/videos/Gunter Ingles Sin marco - Compressed with FlexClip.mp4",
             "eager_loading": false,
             "title": "",
             "font_size": "h2",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/catalogo",
+            "link": "shopify://collections/catalogo",
             "internal": true,
             "image_overlay_opacity": 10,
             "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_MfAfpB": {
+          "type": "column",
+          "settings": {
+            "eager_loading": false,
+            "title": "Column",
+            "font_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "internal": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "left",
             "mobile_content_position": "middle-center",
@@ -166,7 +184,8 @@
       },
       "block_order": [
         "column_jydhAd",
-        "column_HQkYHU"
+        "column_HQkYHU",
+        "column_MfAfpB"
       ],
       "settings": {
         "title": "",
@@ -229,7 +248,7 @@
           "type": "button",
           "settings": {
             "button_label": "Jun Oson",
-            "button_link": "shopify:\/\/collections\/jun-oson",
+            "button_link": "shopify://collections/jun-oson",
             "button_style_secondary": true
           }
         }
@@ -239,7 +258,7 @@
         "button_jBF7rN"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Jun-Onson_profile_1da3c5f1-0653-4811-90e2-26cf886eab10.jpg",
+        "image": "shopify://shop_images/Jun-Onson_profile_1da3c5f1-0653-4811-90e2-26cf886eab10.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
