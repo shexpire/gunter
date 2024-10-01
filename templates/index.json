@@ -368,6 +368,41 @@
         "padding_top": 52,
         "padding_bottom": 36
       }
+    },
+    "rich_text_Hwthpq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iUPrwN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Living according to Henn Kim",
+            "heading_size": "h2"
+          }
+        },
+        "button_UPYRfY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Who is this artist?",
+            "button_link": "shopify://collections/henn-kim",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iUPrwN",
+        "button_UPYRfY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -378,6 +413,7 @@
     "d68c5509-a5c0-42dd-b8be-5c413dcea123",
     "image_with_text_bweyXY",
     "featured_collection_EUYnF8",
-    "multicolumn_kky6Yf"
+    "multicolumn_kky6Yf",
+    "rich_text_Hwthpq"
   ]
 }
