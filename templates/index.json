@@ -303,6 +303,72 @@
         "padding_top": 16,
         "padding_bottom": 56
       }
+    },
+    "multicolumn_kky6Yf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WEa9Ew": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Luchadores_XS_larga.webp",
+            "video": "shopify://files/videos/Gunter Ingles Sin marco - Compressed with FlexClip.mp4",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/catalogo",
+            "internal": true,
+            "image_overlay_opacity": 10,
+            "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_TVTM7F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mercedes_bellido_caballosycolumna.webp",
+            "video": "shopify://files/videos/Corto Jeremy.mp4",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/jeremy-yamamura",
+            "internal": true,
+            "image_overlay_opacity": 10,
+            "color_scheme": "inverse",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "column_WEa9Ew",
+        "column_TVTM7F"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "header_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -312,6 +378,7 @@
     "multicolumn_GabapB",
     "d68c5509-a5c0-42dd-b8be-5c413dcea123",
     "image_with_text_bweyXY",
-    "featured_collection_EUYnF8"
+    "featured_collection_EUYnF8",
+    "multicolumn_kky6Yf"
   ]
 }
