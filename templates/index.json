@@ -375,7 +375,7 @@
         "heading_iUPrwN": {
           "type": "heading",
           "settings": {
-            "heading": "Living by Henn Kim",
+            "heading": "Happiness, by Henn Kim",
             "heading_size": "h2"
           }
         },
@@ -400,8 +400,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     }
   },
