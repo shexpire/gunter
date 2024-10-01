@@ -123,26 +123,6 @@
     "multicolumn_GabapB": {
       "type": "multicolumn",
       "blocks": {
-        "column_jydhAd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/mercedes_bellido_caballosycolumna.webp",
-            "video": "shopify://files/videos/694E74790824272F910312F8B46DE8B8_video_dashinit - Compressed with FlexClip - Compressed with FlexClip.mp4",
-            "eager_loading": false,
-            "title": "",
-            "font_size": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/ana-jaren",
-            "internal": true,
-            "image_overlay_opacity": 10,
-            "color_scheme": "inverse",
-            "desktop_content_position": "bottom-left",
-            "desktop_content_alignment": "left",
-            "mobile_content_position": "middle-center",
-            "mobile_content_alignment": "center"
-          }
-        },
         "column_HQkYHU": {
           "type": "column",
           "settings": {
@@ -157,6 +137,26 @@
             "internal": true,
             "image_overlay_opacity": 10,
             "color_scheme": "",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_jydhAd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mercedes_bellido_caballosycolumna.webp",
+            "video": "shopify://files/videos/694E74790824272F910312F8B46DE8B8_video_dashinit - Compressed with FlexClip - Compressed with FlexClip.mp4",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/jeremy-yamamura",
+            "internal": true,
+            "image_overlay_opacity": 10,
+            "color_scheme": "inverse",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "left",
             "mobile_content_position": "middle-center",
@@ -185,8 +185,8 @@
         }
       },
       "block_order": [
-        "column_jydhAd",
         "column_HQkYHU",
+        "column_jydhAd",
         "column_MfAfpB"
       ],
       "settings": {
