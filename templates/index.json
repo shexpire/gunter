@@ -127,7 +127,7 @@
         "heading_UFeDRy": {
           "type": "heading",
           "settings": {
-            "heading": "Nothing and nobody can stop Ricardo Cavolo",
+            "heading": "Smile please, it's Jeremy Yamamura",
             "heading_size": "h2"
           }
         },
@@ -135,7 +135,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "the artwork you need",
-            "button_link_1": "shopify://collections/ricardo-cavolo",
+            "button_link_1": "shopify://collections/jeremy-yamamura",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -148,11 +148,11 @@
         "buttons_9Qying"
       ],
       "settings": {
-        "image": "shopify://shop_images/Ricardo_y_gorra.jpg",
-        "image_2": "shopify://shop_images/toni_03.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/Guntergallery-JuanmaJmse-031.jpg",
+        "image_2": "shopify://shop_images/10_Jeremy-Yamamura-scaled.jpg",
+        "image_overlay_opacity": 10,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
