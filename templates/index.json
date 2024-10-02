@@ -284,15 +284,15 @@
         "heading_mzfj8q": {
           "type": "heading",
           "settings": {
-            "heading": "\"I grew up watching cartoons and anime. Eventually, I began to draw my own characters\"",
+            "heading": "\"Women's efforts and contributions to society are too often overlooked, so I take every opportunity I can to highlight them.\"",
             "heading_size": "h2"
           }
         },
         "button_jBF7rN": {
           "type": "button",
           "settings": {
-            "button_label": "Jun Oson",
-            "button_link": "shopify://collections/jun-oson",
+            "button_label": "María Herreros",
+            "button_link": "shopify://collections/maria-herreros",
             "button_style_secondary": true
           }
         }
@@ -302,7 +302,7 @@
         "button_jBF7rN"
       ],
       "settings": {
-        "image": "shopify://shop_images/Jun-Onson_profile_1da3c5f1-0653-4811-90e2-26cf886eab10.jpg",
+        "image": "shopify://shop_images/15825570559046.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
