@@ -35,10 +35,52 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Captura_de_pantalla_2023-10-18_a_las_16.15.01.png",
         "image_2": "shopify://shop_images/jean-jullien-jardin-des-plantes-8-1594754702.jpg",
         "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_8HTQtn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_AKLTeV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jun Oson's characters come to Europe",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_K8GKK3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Next Exhibition in Madrid 30 NOv- 1 dic",
+            "button_link_1": "shopify://collections/jun-oson",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AKLTeV",
+        "buttons_K8GKK3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Jun_Onson.jpg",
+        "image_2": "shopify://shop_images/tumblr_6ed0581f0c0dc28188f15e868dcd420f_27db54b6_1280.jpg",
+        "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -407,6 +449,7 @@
   },
   "order": [
     "image_banner",
+    "image_banner_8HTQtn",
     "featured_collection",
     "image_banner_RQfaej",
     "multicolumn_GabapB",
