@@ -57,14 +57,14 @@
         "heading_AKLTeV": {
           "type": "heading",
           "settings": {
-            "heading": "Jun Oson's new artwork arrives in Europe",
+            "heading": "Jun Oson's new artwork arrives in Madrid (Spain)",
             "heading_size": "h2"
           }
         },
         "buttons_K8GKK3": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Exhibition - 30 Nov & 1 dic - Madrid",
+            "button_label_1": "Exhibition - 30 Nov & 1 dic",
             "button_link_1": "shopify://collections/jun-oson",
             "button_style_secondary_1": true,
             "button_label_2": "",
