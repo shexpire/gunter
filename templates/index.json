@@ -80,7 +80,7 @@
       "settings": {
         "image": "shopify://shop_images/Jun_Onson.jpg",
         "image_2": "shopify://shop_images/Jun_Oson_ecdbc271-ca62-48a4-92d4-909fcadce493.png",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
