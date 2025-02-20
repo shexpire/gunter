@@ -165,26 +165,6 @@
     "multicolumn_GabapB": {
       "type": "multicolumn",
       "blocks": {
-        "column_HQkYHU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Luchadores_XS_larga.webp",
-            "video": "shopify://files/videos/Gunter Ingles Sin marco - Compressed with FlexClip.mp4",
-            "eager_loading": false,
-            "title": "",
-            "font_size": "h2",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/catalogo",
-            "internal": true,
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "desktop_content_position": "bottom-left",
-            "desktop_content_alignment": "left",
-            "mobile_content_position": "middle-center",
-            "mobile_content_alignment": "center"
-          }
-        },
         "column_jydhAd": {
           "type": "column",
           "settings": {
@@ -199,6 +179,26 @@
             "internal": true,
             "image_overlay_opacity": 0,
             "color_scheme": "inverse",
+            "desktop_content_position": "bottom-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_position": "middle-center",
+            "mobile_content_alignment": "center"
+          }
+        },
+        "column_HQkYHU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Luchadores_XS_larga.webp",
+            "video": "shopify://files/videos/Gunter Ingles Sin marco - Compressed with FlexClip.mp4",
+            "eager_loading": false,
+            "title": "",
+            "font_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/catalogo",
+            "internal": true,
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "left",
             "mobile_content_position": "middle-center",
@@ -227,8 +227,8 @@
         }
       },
       "block_order": [
-        "column_HQkYHU",
         "column_jydhAd",
+        "column_HQkYHU",
         "column_MfAfpB"
       ],
       "settings": {
