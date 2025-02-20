@@ -217,7 +217,7 @@
             "link_label": "",
             "link": "shopify://collections/mark-conlan",
             "internal": true,
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "left",
