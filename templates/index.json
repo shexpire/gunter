@@ -127,15 +127,15 @@
         "heading_UFeDRy": {
           "type": "heading",
           "settings": {
-            "heading": "Please smile, all you see is Jeremy Yamamura",
+            "heading": "The work of Ricardo Cavolo, always big",
             "heading_size": "h2"
           }
         },
         "buttons_9Qying": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "the artwork you need",
-            "button_link_1": "shopify://collections/jeremy-yamamura",
+            "button_label_1": "Get a piece of his artwork",
+            "button_link_1": "shopify://collections/ricardo-cavolo",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -148,8 +148,8 @@
         "buttons_9Qying"
       ],
       "settings": {
-        "image": "shopify://shop_images/Guntergallery-JuanmaJmse-031.jpg",
-        "image_2": "shopify://shop_images/10_Jeremy-Yamamura-scaled.jpg",
+        "image": "shopify://shop_images/Ricardo_Cavolo_mural.jpg",
+        "image_2": "shopify://shop_images/Ricardo_Cavolo.png",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
