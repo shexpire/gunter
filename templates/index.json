@@ -95,13 +95,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ricardo Cavolo is a plan to do",
+        "title": "Toni Ferrer's geometric abstraction",
         "heading_size": "h2",
         "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ricardo-cavolo",
+        "collection": "toni-ferrer",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
