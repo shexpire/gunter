@@ -95,13 +95,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Toni Ferrer's geometric abstraction",
+        "title": "And Elisa Talentino's work stole the spring",
         "heading_size": "h2",
         "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "toni-ferrer",
+        "collection": "elisa-talentino",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
