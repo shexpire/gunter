@@ -57,7 +57,7 @@
         "heading_AKLTeV": {
           "type": "heading",
           "settings": {
-            "heading": "Ceramics and tigers, Mercedes Bellido's world",
+            "heading": "The day we all fell in love with Jean Jullien",
             "heading_size": "h2"
           }
         },
@@ -65,7 +65,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Meet his original artwork",
-            "button_link_1": "shopify://collections/mercedes-bellido",
+            "button_link_1": "shopify://collections/jean-jullien",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -78,8 +78,8 @@
         "buttons_K8GKK3"
       ],
       "settings": {
-        "image": "shopify://shop_images/gunter-vogue2.jpg",
-        "image_2": "shopify://shop_images/emW4JQmA.jpg",
+        "image": "shopify://shop_images/Jean_Jullien_cuadro_rosa_f1602340-40e3-489a-b4d4-8c012e4186e7.jpg",
+        "image_2": "shopify://shop_images/JULLIEN_06.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
