@@ -524,7 +524,7 @@
         "background_style": "primary",
         "button_label": "reasons to love graffiti",
         "button_link": "shopify://collections/street-art",
-        "color_scheme": "",
+        "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 16,
