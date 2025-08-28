@@ -57,15 +57,15 @@
         "heading_AKLTeV": {
           "type": "heading",
           "settings": {
-            "heading": "The day we all fell in love with Jean Jullien",
+            "heading": "Lorca, art and passion: the perfect triangle",
             "heading_size": "h2"
           }
         },
         "buttons_K8GKK3": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Meet his limited edition artwork",
-            "button_link_1": "shopify://collections/jean-jullien",
+            "button_label_1": "Ricardo Cavolo universal",
+            "button_link_1": "shopify://collections/ricardo-cavolo",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -78,12 +78,12 @@
         "buttons_K8GKK3"
       ],
       "settings": {
-        "image": "shopify://shop_images/Jean_Jullien_cuadro_rosa_f1602340-40e3-489a-b4d4-8c012e4186e7.jpg",
-        "image_2": "shopify://shop_images/JULLIEN_06.jpg",
+        "image": "shopify://shop_images/16_web.jpg",
+        "image_2": "shopify://shop_images/Ricardo_Cavolo.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
         "image_behavior": "none",
@@ -95,13 +95,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "And Elisa Talentino's work stole the spring",
+        "title": "Street art is not dead. Jeremy Yamamura is proof of that",
         "heading_size": "h2",
         "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "elisa-talentino",
+        "collection": "jeremy-yamamura",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
@@ -127,15 +127,15 @@
         "heading_UFeDRy": {
           "type": "heading",
           "settings": {
-            "heading": "The work of Ricardo Cavolo, always big",
+            "heading": "The humour and creativity of a genius",
             "heading_size": "h2"
           }
         },
         "buttons_9Qying": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get a piece of his artwork",
-            "button_link_1": "shopify://collections/ricardo-cavolo",
+            "button_label_1": "Jean Jullien always contributes",
+            "button_link_1": "shopify://collections/jean-jullien",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -148,15 +148,15 @@
         "buttons_9Qying"
       ],
       "settings": {
-        "image": "shopify://shop_images/Ricardo_Cavolo_mural.jpg",
-        "image_2": "shopify://shop_images/Ricardo_Cavolo.png",
+        "image": "shopify://shop_images/JULLIEN_06.jpg",
+        "image_2": "shopify://shop_images/Jean_Jullien_cea12746-164a-411a-b7d5-65acb37ccf49.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
@@ -169,13 +169,13 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/mercedes_bellido_caballosycolumna.webp",
-            "video": "shopify://files/videos/Jun Oson.mp4",
+            "video": "shopify://files/videos/Ricardo Cavolo.mp4",
             "eager_loading": false,
             "title": "",
             "font_size": "h4",
             "text": "",
             "link_label": "",
-            "link": "shopify://collections/jun-oson",
+            "link": "shopify://collections/ricardo-cavolo",
             "internal": true,
             "image_overlay_opacity": 0,
             "color_scheme": "inverse",
@@ -209,13 +209,13 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Mark_Conlan_4855d426-4741-4a34-9454-7817049bad10.png",
-            "video": "shopify://files/videos/Mark Conlan - Compressed with FlexClip.mp4",
+            "video": "shopify://files/videos/2B4C8C86BDCE486F7ACDCD326BFCE4B9_video_dashinit - Compressed with FlexClip - Compressed with FlexClip.mp4",
             "eager_loading": false,
             "title": "",
             "font_size": "h2",
             "text": "",
             "link_label": "",
-            "link": "shopify://collections/mark-conlan",
+            "link": "shopify://collections/henn-kim",
             "internal": true,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -284,15 +284,15 @@
         "heading_mzfj8q": {
           "type": "heading",
           "settings": {
-            "heading": "\"Women's efforts and contributions to society are too often overlooked, so I take every opportunity I can to highlight them.\"",
+            "heading": "\"I am drawn to the concept of everyday life. That is why my works are a tribute to the moment, to what we can obtain from it: reflection, silence...\"",
             "heading_size": "h2"
           }
         },
         "button_jBF7rN": {
           "type": "button",
           "settings": {
-            "button_label": "María Herreros",
-            "button_link": "shopify://collections/maria-herreros",
+            "button_label": "Ana Jarén",
+            "button_link": "shopify://collections/ana-jaren",
             "button_style_secondary": true
           }
         }
@@ -302,7 +302,7 @@
         "button_jBF7rN"
       ],
       "settings": {
-        "image": "shopify://shop_images/15825570559046.jpg",
+        "image": "shopify://shop_images/458179571_896663219051265_7455361376337786904_n.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -352,7 +352,7 @@
         "column_WEa9Ew": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Henn_Kim.jpg",
+            "image": "shopify://shop_images/BoaMistura.jpg",
             "eager_loading": false,
             "title": "",
             "font_size": "h2",
@@ -372,13 +372,13 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/mercedes_bellido_caballosycolumna.webp",
-            "video": "shopify://files/videos/2B4C8C86BDCE486F7ACDCD326BFCE4B9_video_dashinit - Compressed with FlexClip - Compressed with FlexClip.mp4",
+            "video": "shopify://files/videos/AQOYu1KHHAUMbXF3-y3CVfdLu-C22gWC9zDWrtiG1cWZWKUD10cIvWRk1gIf51MCaXSpmvOTDSQjwbpEbwVHXbRWRN8zUNJrOfYRVwE.mp4",
             "eager_loading": false,
             "title": "",
             "font_size": "h4",
             "text": "",
             "link_label": "",
-            "link": "shopify://collections/henn-kim",
+            "link": "shopify://collections/boamistura",
             "internal": true,
             "image_overlay_opacity": 10,
             "color_scheme": "inverse",
@@ -417,15 +417,15 @@
         "heading_iUPrwN": {
           "type": "heading",
           "settings": {
-            "heading": "Happiness, by Henn Kim",
+            "heading": "Boamistura, the greatest",
             "heading_size": "h2"
           }
         },
         "button_UPYRfY": {
           "type": "button",
           "settings": {
-            "button_label": "Who is this artist?",
-            "button_link": "shopify://collections/henn-kim",
+            "button_label": "The legend, in your home",
+            "button_link": "shopify://collections/boamistura",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -452,13 +452,13 @@
         "column_zwPD4f": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/PLAZA_DE_LA_HOJA_00_Boa_Mistura_2015.jpg",
+            "image": "shopify://shop_images/10_Jeremy-Yamamura-scaled.jpg",
             "eager_loading": false,
             "title": "",
             "font_size": "h2",
             "text": "",
             "link_label": "",
-            "link": "shopify://collections/boamistura",
+            "link": "shopify://collections/jeremy-yamamura",
             "internal": true,
             "image_overlay_opacity": 0,
             "color_scheme": "",
