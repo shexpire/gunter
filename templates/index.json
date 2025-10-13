@@ -50,47 +50,6 @@
         "show_text_below": true
       }
     },
-    "image_banner_8HTQtn": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_AKLTeV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lorca, art and passion: the perfect triangle",
-            "heading_size": "h2"
-          }
-        },
-        "buttons_K8GKK3": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Ricardo Cavolo universal",
-            "button_link_1": "shopify://collections/ricardo-cavolo",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_AKLTeV",
-        "buttons_K8GKK3"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/16_web.jpg",
-        "image_2": "shopify://shop_images/Ricardo_Cavolo.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -246,6 +205,47 @@
         "swipe_on_mobile": false,
         "padding_top": 52,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_8HTQtn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_AKLTeV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorca, art and passion: the perfect triangle",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_K8GKK3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Ricardo Cavolo universal",
+            "button_link_1": "shopify://collections/ricardo-cavolo",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AKLTeV",
+        "buttons_K8GKK3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/16_web.jpg",
+        "image_2": "shopify://shop_images/Ricardo_Cavolo.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "d68c5509-a5c0-42dd-b8be-5c413dcea123": {
@@ -533,12 +533,12 @@
   },
   "order": [
     "image_banner",
-    "image_banner_8HTQtn",
     "featured_collection",
     "image_banner_RQfaej",
     "multicolumn_GabapB",
     "d68c5509-a5c0-42dd-b8be-5c413dcea123",
     "image_with_text_bweyXY",
+    "image_banner_8HTQtn",
     "featured_collection_EUYnF8",
     "multicolumn_kky6Yf",
     "rich_text_Hwthpq",
