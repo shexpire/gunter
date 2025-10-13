@@ -15,15 +15,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Is Jean Jullien the best illustrator of the decade?",
+            "heading": "Be Fernandez, colour is also an attitude",
             "heading_size": "h2"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "The answer is here",
-            "button_link_1": "shopify://collections/jean-jullien",
+            "button_label_1": "New artwork now available",
+            "button_link_1": "shopify://collections/be-fernandez",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,16 +35,15 @@
         "heading",
         "button"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Captura_de_pantalla_2023-10-18_a_las_16.15.01.png",
-        "image_2": "shopify://shop_images/jean-jullien-jardin-des-plantes-8-1594754702.jpg",
-        "image_overlay_opacity": 20,
+        "image": "shopify://shop_images/doble__onlymike1.jpg",
+        "image_2": "shopify://shop_images/BEFERNANDEZWEB.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
