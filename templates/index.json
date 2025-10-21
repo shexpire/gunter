@@ -85,15 +85,15 @@
         "heading_UFeDRy": {
           "type": "heading",
           "settings": {
-            "heading": "The humour and creativity of a genius",
+            "heading": "Jerome Masi, the origin of urban culture",
             "heading_size": "h2"
           }
         },
         "buttons_9Qying": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Jean Jullien always contributes",
-            "button_link_1": "shopify://collections/jean-jullien",
+            "button_label_1": "The latest revelation in French art",
+            "button_link_1": "shopify://collections/jerome-masi",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -106,9 +106,9 @@
         "buttons_9Qying"
       ],
       "settings": {
-        "image": "shopify://shop_images/JULLIEN_06.jpg",
-        "image_2": "shopify://shop_images/Jean_Jullien_cea12746-164a-411a-b7d5-65acb37ccf49.jpg",
-        "image_overlay_opacity": 10,
+        "image": "shopify://shop_images/CHILDHOODBNW-1.png",
+        "image_2": "shopify://shop_images/jeromemasi-2022.png",
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -345,6 +345,47 @@
         "padding_bottom": 12
       }
     },
+    "image_banner_VjHNCp": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FgfFhU": {
+          "type": "heading",
+          "settings": {
+            "heading": "The humour and creativity of a genius",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_c6mKj6": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Jean Jullien always contributes",
+            "button_link_1": "shopify://collections/jean-jullien",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FgfFhU",
+        "buttons_c6mKj6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/JULLIEN_06.jpg",
+        "image_2": "shopify://shop_images/Jean_Jullien_cea12746-164a-411a-b7d5-65acb37ccf49.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "multicolumn_kky6Yf": {
       "type": "multicolumn",
       "blocks": {
@@ -540,6 +581,7 @@
     "image_with_text_bweyXY",
     "image_banner_8HTQtn",
     "featured_collection_EUYnF8",
+    "image_banner_VjHNCp",
     "multicolumn_kky6Yf",
     "rich_text_Hwthpq",
     "multicolumn_GzMdJt"
