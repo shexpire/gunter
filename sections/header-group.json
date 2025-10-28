@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping only in Spain (Península)",
-            "link": ""
+            "text": "Enjoy 15% off on over 50 limited edition artworks",
+            "link": "shopify://collections/descuentos"
           }
         },
         "announcement_NmgqNB": {
@@ -51,8 +51,8 @@
           "settings": {
             "title": "Original Artworks",
             "parent_item": 1,
-            "link": "shopify:\/\/collections\/fine-art",
-            "image": "shopify:\/\/shop_images\/mercedes_bellido_caballosycolumna.webp"
+            "link": "shopify://collections/fine-art",
+            "image": "shopify://shop_images/mercedes_bellido_caballosycolumna.webp"
           }
         },
         "megamenu_item_eexdDr": {
@@ -60,8 +60,8 @@
           "settings": {
             "title": "Prints & Editions",
             "parent_item": 1,
-            "link": "shopify:\/\/collections\/catalogo",
-            "image": "shopify:\/\/shop_images\/Luchadores_XS_larga.webp"
+            "link": "shopify://collections/catalogo",
+            "image": "shopify://shop_images/Luchadores_XS_larga.webp"
           }
         },
         "megamenu_item_KyHMV6": {
@@ -69,8 +69,8 @@
           "settings": {
             "title": "ViewRooms",
             "parent_item": 3,
-            "link": "shopify:\/\/blogs\/viewrooms",
-            "image": "shopify:\/\/shop_images\/Yutanpo_Shirane.png"
+            "link": "shopify://blogs/viewrooms",
+            "image": "shopify://shop_images/Yutanpo_Shirane.png"
           }
         },
         "megamenu_item_8HmLLj": {
@@ -78,8 +78,8 @@
           "settings": {
             "title": "Brand Collaborations",
             "parent_item": 3,
-            "link": "shopify:\/\/blogs\/eventos",
-            "image": "shopify:\/\/shop_images\/JiXuM-SY.jpg"
+            "link": "shopify://blogs/eventos",
+            "image": "shopify://shop_images/JiXuM-SY.jpg"
           }
         }
       },
