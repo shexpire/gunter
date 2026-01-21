@@ -1,17 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/gunter.png",
+    "logo": "shopify://shop_images/gunter.png",
     "logo_width": 220,
-    "favicon": "shopify:\/\/shop_images\/icon-gunter-02.png",
+    "favicon": "shopify://shop_images/icon-gunter-02.png",
     "type_header_font": "raleway_n5",
     "heading_scale": 115,
     "type_body_font": "raleway_n3",
@@ -22,7 +22,7 @@
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
@@ -108,15 +108,15 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/www.facebook.com\/GunterGallery",
-    "social_instagram_link": "https:\/\/instagram.com\/guntergallery",
-    "social_youtube_link": "https:\/\/www.youtube.com\/user\/GUNTERGALLERY",
+    "social_facebook_link": "https://www.facebook.com/GunterGallery",
+    "social_instagram_link": "https://instagram.com/guntergallery",
+    "social_youtube_link": "https://www.youtube.com/user/GUNTERGALLERY",
     "social_tiktok_link": "",
-    "social_twitter_link": "https:\/\/twitter.com\/Gunter_Gallery",
+    "social_twitter_link": "https://twitter.com/Gunter_Gallery",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.es\/guntergallery\/",
+    "social_pinterest_link": "https://www.pinterest.es/guntergallery/",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -128,7 +128,7 @@
     "show_cart_note": true,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo-2.png",
+    "checkout_logo_image": "shopify://shop_images/logo-2.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_heading_font": "Lora",
@@ -149,18 +149,15 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14818028230436078177": {
-        "type": "shopify:\/\/apps\/langify\/blocks\/langify\/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
+        "type": "shopify://apps/langify/blocks/langify/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
         "disabled": true,
         "settings": {
           "theme_id": "167072923973",
@@ -384,7 +381,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
