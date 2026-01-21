@@ -15,17 +15,17 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Be Fernandez, colour is also an attitude",
+            "heading": "New exhibition 'New Urban Figuration'",
             "heading_size": "h2"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "New artwork now available",
-            "button_link_1": "shopify://collections/be-fernandez",
+            "button_label_1": "Padure (Rumanía) + Be Fernández (Spain) + Ezra Bron (USA) + JEROME MASI (FRANCE) + MILLITSUKA (JAPAN)",
+            "button_link_1": "shopify://collections/padure",
             "button_style_secondary_1": true,
-            "button_label_2": "",
+            "button_label_2": "13-14-15 February. Madrid (Spain)",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -36,8 +36,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/doble__onlymike1.jpg",
-        "image_2": "shopify://shop_images/BEFERNANDEZWEB.jpg",
+        "image": "shopify://shop_images/padure-studio.png",
+        "image_2": "shopify://shop_images/goodbye-2.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
