@@ -19,17 +19,21 @@
             "heading_size": "h2"
           }
         },
-        "text_Gh4zrd": {
-          "type": "text",
+        "buttons_CE9KbB": {
+          "type": "buttons",
           "settings": {
-            "text": "<a href=\"/collections/padure\" target=\"_blank\" title=\"Padure\">HIS GRAPHIC WORK IN VERY LIMITED EDITION</a>",
-            "text_style": "body"
+            "button_label_1": "HIS GRAPHIC WORK IN VERY LIMITED EDITION",
+            "button_link_1": "shopify://collections/padure",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "text_Gh4zrd"
+        "buttons_CE9KbB"
       ],
       "settings": {
         "image": "shopify://shop_images/padure-studio.png",
