@@ -15,32 +15,20 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "'New Urban Figuration', next exhibition",
+            "heading": "<a href=\"/collections/padure\" target=\"_blank\" title=\"Padure\">The urban minimalist from Padure</a>",
             "heading_size": "h2"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Padure + Be Fernández + Ezra BroWn + JEROME MASI + MILLITSUKA",
-            "button_link_1": "shopify://blogs/news/exposicion-nueva-figuracion-urbana",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         },
         "text_Gh4zrd": {
           "type": "text",
           "settings": {
-            "text": "13-14-15 February. Madrid (Spain)",
+            "text": "HIS GRAPHIC WORK IN VERY LIMITED EDITION",
             "text_style": "body"
           }
         }
       },
       "block_order": [
         "heading",
-        "button",
         "text_Gh4zrd"
       ],
       "settings": {
