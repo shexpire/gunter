@@ -246,16 +246,16 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
+    "featured_collection_jtfWVg": {
       "type": "featured-collection",
       "settings": {
-        "title": "Street art is not dead. Jeremy Yamamura is proof of that",
+        "title": "Cartoon-inspired art work by Ezra Brown",
         "heading_size": "h2",
         "header_alignment": "center",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "jeremy-yamamura",
+        "collection": "ezra-brown",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
@@ -423,6 +423,35 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Street art is not dead. Jeremy Yamamura is proof of that",
+        "heading_size": "h2",
+        "header_alignment": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "jeremy-yamamura",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 32
       }
     },
     "multicolumn_kky6Yf": {
@@ -617,11 +646,12 @@
     "image_with_text_6KFByq",
     "image_banner_RQfaej",
     "multicolumn_GabapB",
-    "featured_collection",
+    "featured_collection_jtfWVg",
     "image_with_text_bweyXY",
     "image_banner_8HTQtn",
     "featured_collection_EUYnF8",
     "image_banner_VjHNCp",
+    "featured_collection",
     "multicolumn_kky6Yf",
     "rich_text_Hwthpq",
     "multicolumn_GzMdJt"
