@@ -156,15 +156,10 @@
         "disabled": false,
         "settings": {}
       },
-      "14818028230436078177": {
-        "type": "shopify://apps/langify/blocks/langify/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
-        "disabled": true,
-        "settings": {
-          "theme_id": "167072923973",
-          "block_flags_css": false,
-          "block_lib_css": true,
-          "rtl_css": "body {\n  direction: rtl;\n}"
-        }
+      "15754638750428030000": {
+        "type": "shopify://apps/gdpr-cookie-consent/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
