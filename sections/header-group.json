@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Enjoy 15% off on over 50 limited edition artworks",
-            "link": "shopify://collections/descuentos"
-          }
-        },
         "announcement_NmgqNB": {
           "type": "announcement",
           "settings": {
@@ -30,7 +23,6 @@
         }
       },
       "block_order": [
-        "announcement-bar-0",
         "announcement_NmgqNB"
       ],
       "settings": {
