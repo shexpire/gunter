@@ -15,15 +15,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "What is Padure's new urban minimalism?",
+            "heading": "<a href=\"/collections/boamistura\" target=\"_blank\" title=\"Boamistura\">BoaMistura never goes out of trend</a>",
             "heading_size": "h2"
           }
         },
         "buttons_CE9KbB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "HIS GRAPHIC WORK IN VERY LIMITED EDITION",
-            "button_link_1": "shopify://collections/padure",
+            "button_label_1": "Because you've always loved the classics",
+            "button_link_1": "shopify://collections/boamistura",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,8 +36,8 @@
         "buttons_CE9KbB"
       ],
       "settings": {
-        "image": "shopify://shop_images/padure-studio.png",
-        "image_2": "shopify://shop_images/goodbye-2.png",
+        "image": "shopify://shop_images/BoaMistura.jpg",
+        "image_2": "shopify://shop_images/Guntergallery-shooting-juanmajmse07.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
