@@ -7,8 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <link rel="canonical" href="{{ canonical_url }}">
-
+{%- liquid
+  assign current_url = request.origin | append: request.path
+  if request.host contains 'es.'
+    assign canonical = 'https://es.guntergallery.com' | append: request.path
+  else
+    assign canonical = 'https://www.guntergallery.com' | append: request.path
+  endif
+-%}
+<link rel="canonical" href="{{ canonical }}">
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
